@@ -9,7 +9,14 @@
   "sections": [
     {
       "name": "Ruta completa del día",
-      "content": "<div class='stop'>\n  <div class='stop-body' style='display: block; padding: 1rem;'>\n    <div class='stop-desc' style='margin: 0;'>Ruta de Google Maps con todas las paradas del día 6 en orden: Estação de São Bento, Sé do Porto, Igreja de São Francisco, Palácio da Bolsa, Ribeira, Ponte Dom Luís I, Livraria Lello, Torre dos Clérigos, Iglesias do Carmo y Palácio de Cristal.</div>\n    <a class='maps-btn' href='https://www.google.com/maps/dir/Estação+de+São+Bento+Oporto/Sé+do+Porto/Igreja+de+São+Francisco+Oporto/Palácio+da+Bolsa+Oporto/Ribeira+Oporto/Ponte+Dom+Luís+I+Oporto/Livraria+Lello+Oporto/Torre+dos+Clérigos+Oporto/Igrejas+do+Carmo+Oporto/Palácio+de+Cristal+Oporto' target='_blank' style='margin-top: 1rem;'>📍 Ver ruta completa en Google Maps</a>\n  </div>\n</div>"
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 6 en orden: Estação de São Bento, Sé do Porto, Igreja de São Francisco, Palácio da Bolsa, Ribeira, Ponte Dom Luís I, Livraria Lello, Torre dos Clérigos, Iglesias do Carmo y Palácio de Cristal.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Estação+de+São+Bento+Oporto/Sé+do+Porto/Igreja+de+São+Francisco+Oporto/Palácio+da+Bolsa+Oporto/Ribeira+Oporto/Ponte+Dom+Luís+I+Oporto/Livraria+Lello+Oporto/Torre+dos+Clérigos+Oporto/Igrejas+do+Carmo+Oporto/Palácio+de+Cristal+Oporto" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+          </div>
+        </div>
+      `
     }
   ],
   "timeline": [

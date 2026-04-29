@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Fetch</title>
+</head>
+<body>
+    <h1>Testing JSON Fetch</h1>
+    <div id="results"></div>
+    <script>
+        async function testFetch() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<p>Testing fetch...</p>';
+
+            try {
+                const promises = [];
+                for (let i = 1; i <= 8; i++) {
+                    promises.push(
+                        fetch(`js/data/day${i}.json`)
+                            .then(res => {
+                                if (!res.ok) {
+                                    throw new Error(`HTTP ${res.status} for day${i}.json`);
+                                }
+                                return res.json();
+                            })
+                            .catch(error => {
+                                console.error(`Failed to load day${i}.json:`, error.message);
+                                throw error;
+                            })
+                    );
+                }
+
+                const data = await Promise.all(promises);
+                results.innerHTML = `<p>✅ Successfully loaded ${data.length} JSON files</p>`;
+                data.forEach((day, index) => {
+                    results.innerHTML += `<p>Day ${index + 1}: ${day.title}</p>`;
+                });
+            } catch (error) {
+                results.innerHTML = `<p>❌ Error: ${error.message}</p>`;
+                console.error('Test failed:', error);
+            }
+        }
+
+        testFetch();
+    </script>
+</body>
+</html>

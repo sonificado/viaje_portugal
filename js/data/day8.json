@@ -9,7 +9,14 @@
   "sections": [
     {
       "name": "Ruta completa del día",
-      "content": "<div class='stop'>\n  <div class='stop-body' style='display: block; padding: 1rem;'>\n    <div class='stop-desc' style='margin: 0;'>Ruta de Google Maps con todas las paradas del día 8 en orden: Plaza Mayor, Universidad, Catedrales, Casa de las Conchas y Puente Romano antes de regresar a Redován.</div>\n    <a class='maps-btn' href='https://www.google.com/maps/dir/Plaza+Mayor+Salamanca/Universidad+de+Salamanca/Catedrales+Vieja+y+Nueva+Salamanca/Casa+de+las+Conchas+Salamanca/Puente+Romano+Salamanca/Redován,+España' target='_blank' style='margin-top: 1rem;'>📍 Ver ruta completa en Google Maps</a>\n  </div>\n</div>"
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 8 en orden: Plaza Mayor, Universidad, Catedrales, Casa de las Conchas y Puente Romano antes de regresar a Redován.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Plaza+Mayor+Salamanca/Universidad+de+Salamanca/Catedrales+Vieja+y+Nueva+Salamanca/Casa+de+las+Conchas+Salamanca/Puente+Romano+Salamanca/Redován,+España" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+          </div>
+        </div>
+      `
     }
   ],
   "timeline": [
