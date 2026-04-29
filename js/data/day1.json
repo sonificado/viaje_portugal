@@ -9,14 +9,7 @@
   "sections": [
     {
       "name": "Ruta completa del día",
-      "content": `
-        <div class="stop">
-          <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 1 en orden: desde Redován hasta Mérida, pasando por todos los monumentos visitados.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Redován,+España/Mérida,+España/Termas+de+San+Lázaro,+Mérida/Cripta+Arqueológica+de+Santa+Eulalia,+Mérida/Teatro+Romano+Mérida/Pórtico+del+Foro+Municipal,+Mérida/Templo+de+Diana,+Mérida/Arco+de+Trajano,+Mérida/Plaza+de+España,+Mérida/Puente+Romano+Mérida" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
-          </div>
-        </div>
-      `
+      "content": "\n        <div class=\"stop\">\n          <div class=\"stop-body\" style=\"display: block; padding: 1rem;\">\n            <div class=\"stop-desc\" style=\"margin: 0;\">Ruta de Google Maps con todas las paradas del día 1 en orden: desde Redován hasta Mérida, pasando por todos los monumentos visitados.</div>\n            <a class=\"maps-btn\" href=\"https://www.google.com/maps/dir/Redován,+España/Mérida,+España/Termas+de+San+Lázaro,+Mérida/Cripta+Arqueológica+de+Santa+Eulalia,+Mérida/Teatro+Romano+Mérida/Pórtico+del+Foro+Municipal,+Mérida/Templo+de+Diana,+Mérida/Arco+de+Trajano,+Mérida/Plaza+de+España,+Mérida/Puente+Romano+Mérida\" target=\"_blank\" style=\"margin-top: 1rem;\">📍 Ver ruta completa en Google Maps</a>\n          </div>\n        </div>\n      "
     },
     {
       "name": "El viaje",

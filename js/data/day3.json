@@ -9,14 +9,7 @@
   "sections": [
     {
       "name": "Ruta completa del día",
-      "content": `
-        <div class="stop">
-          <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 3 en orden: Plaza Martim Moniz, Panteão Nacional, Miradouro de Santa Luzia, Igreja de São Miguel, Sé de Lisboa, Ayuntamiento de Lisboa, R. de Santa Justa, Elevador de Santa Justa, Café A Brasileira, Praça do Rossio, Casa Portuguesa do Pastel de Bacalhau, Arco da Rua Augusta, Praça do Comércio y Ribeira das Naus.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Plaza+Martim+Moniz+Lisboa/Panteão+Nacional+Lisboa/Miradouro+de+Santa+Luzia+Lisboa/Igreja+de+São+Miguel+Lisboa/Sé+de+Lisboa/Ayuntamiento+de+Lisboa/Rua+de+Santa+Justa+Lisboa/Elevador+de+Santa+Justa/Café+A+Brasileira/Praça+do+Rossio+Lisboa/Casa+Portuguesa+do+Pastel+de+Bacalhau/Arco+da+Rua+Augusta/Praça+do+Comércio+Lisboa/Ribeira+das+Naus+Lisboa" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
-          </div>
-        </div>
-      `
+      "content": "\n        <div class=\"stop\">\n          <div class=\"stop-body\" style=\"display: block; padding: 1rem;\">\n            <div class=\"stop-desc\" style=\"margin: 0;\">Ruta de Google Maps con todas las paradas del día 3 en orden: Plaza Martim Moniz, Panteão Nacional, Miradouro de Santa Luzia, Igreja de São Miguel, Sé de Lisboa, Ayuntamiento de Lisboa, R. de Santa Justa, Elevador de Santa Justa, Café A Brasileira, Praça do Rossio, Casa Portuguesa do Pastel de Bacalhau, Arco da Rua Augusta, Praça do Comércio y Ribeira das Naus.</div>\n            <a class=\"maps-btn\" href=\"https://www.google.com/maps/dir/Plaza+Martim+Moniz+Lisboa/Panteão+Nacional+Lisboa/Miradouro+de+Santa+Luzia+Lisboa/Igreja+de+São+Miguel+Lisboa/Sé+de+Lisboa/Ayuntamiento+de+Lisboa/Rua+de+Santa+Justa+Lisboa/Elevador+de+Santa+Justa/Café+A+Brasileira/Praça+do+Rossio+Lisboa/Casa+Portuguesa+do+Pastel+de+Bacalhau/Arco+da+Rua+Augusta/Praça+do+Comércio+Lisboa/Ribeira+das+Naus+Lisboa\" target=\"_blank\" style=\"margin-top: 1rem;\">📍 Ver ruta completa en Google Maps</a>\n          </div>\n        </div>\n      "
     },
     {
       "name": "1ª parada — Plaza Martim Moniz",

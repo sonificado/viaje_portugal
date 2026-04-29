@@ -22,14 +22,7 @@
   "sections": [
     {
       "name": "Ruta completa del día",
-      "content": `
-        <div class="stop">
-          <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 4 en orden: desde Lisboa hasta Sintra, visitando Castelo dos Mouros, Palacio da Pena, Quinta da Regaleira, y terminando en Cabo da Roca, el punto más occidental de Europa continental.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Lisboa,+Portugal/Castelo+dos+Mouros,+Sintra,+Portugal/Palácio+Nacional+da+Pena,+Estrada+da+Pena,+2710-529+Sintra,+Portugal/Quinta+da+Regaleira,+R.+da+Regaleira,+2710-567+Sintra,+Portugal/Cabo+da+Roca,+Estrada+do+Cabo+da+Roca,+2705-001+Sintra,+Portugal" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
-          </div>
-        </div>
-      `
+      "content": "\n        <div class=\"stop\">\n          <div class=\"stop-body\" style=\"display: block; padding: 1rem;\">\n            <div class=\"stop-desc\" style=\"margin: 0;\">Ruta de Google Maps con todas las paradas del día 4 en orden: desde Lisboa hasta Sintra, visitando Castelo dos Mouros, Palacio da Pena, Quinta da Regaleira, y terminando en Cabo da Roca, el punto más occidental de Europa continental.</div>\n            <a class=\"maps-btn\" href=\"https://www.google.com/maps/dir/Lisboa,+Portugal/Castelo+dos+Mouros,+Sintra,+Portugal/Palácio+Nacional+da+Pena,+Estrada+da+Pena,+2710-529+Sintra,+Portugal/Quinta+da+Regaleira,+R.+da+Regaleira,+2710-567+Sintra,+Portugal/Cabo+da+Roca,+Estrada+do+Cabo+da+Roca,+2705-001+Sintra,+Portugal\" target=\"_blank\" style=\"margin-top: 1rem;\">📍 Ver ruta completa en Google Maps</a>\n          </div>\n        </div>\n      "
     },
     {
       "name": "El viaje — Lisboa → Sintra",

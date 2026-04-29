@@ -9,14 +9,7 @@
   "sections": [
     {
       "name": "Ruta completa del día",
-      "content": `
-        <div class="stop">
-          <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 7 en orden: Capilla de las Almas, Ayuntamiento de Oporto, Mercado de Bolhão, Café Majestic, Iglesia de Santo Ildefonso, Plaza de la Libertad, Librería Lello, Iglesias Siamesas, Torre dos Clérigos, Estação de São Bento, Convento de Santa Clara, Catedral de la Sé, Palacio de la Bolsa, Iglesia de São Francisco y Ribera de Oporto.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Capela+das+Almas+Oporto/Ayuntamiento+de+Oporto/Mercado+do+Bolhão+Oporto/Café+Majestic+Oporto/Igreja+de+Santo+Ildefonso+Oporto/Praça+da+Liberdade+Oporto/Livraria+Lello+Oporto/Igrejas+do+Carmo+Oporto/Torre+dos+Clérigos+Oporto/Estação+de+São+Bento+Oporto/Convento+de+Santa+Clara+Oporto/Sé+do+Porto/Palácio+da+Bolsa+Oporto/Igreja+de+São+Francisco+Oporto/Ribeira+Oporto" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
-          </div>
-        </div>
-      `
+      "content": "\n        <div class=\"stop\">\n          <div class=\"stop-body\" style=\"display: block; padding: 1rem;\">\n            <div class=\"stop-desc\" style=\"margin: 0;\">Ruta de Google Maps con todas las paradas del día 7 en orden: Capilla de las Almas, Ayuntamiento de Oporto, Mercado de Bolhão, Café Majestic, Iglesia de Santo Ildefonso, Plaza de la Libertad, Librería Lello, Iglesias Siamesas, Torre dos Clérigos, Estação de São Bento, Convento de Santa Clara, Catedral de la Sé, Palacio de la Bolsa, Iglesia de São Francisco y Ribera de Oporto.</div>\n            <a class=\"maps-btn\" href=\"https://www.google.com/maps/dir/Capela+das+Almas+Oporto/Ayuntamiento+de+Oporto/Mercado+do+Bolhão+Oporto/Café+Majestic+Oporto/Igreja+de+Santo+Ildefonso+Oporto/Praça+da+Liberdade+Oporto/Livraria+Lello+Oporto/Igrejas+do+Carmo+Oporto/Torre+dos+Clérigos+Oporto/Estação+de+São+Bento+Oporto/Convento+de+Santa+Clara+Oporto/Sé+do+Porto/Palácio+da+Bolsa+Oporto/Igreja+de+São+Francisco+Oporto/Ribeira+Oporto\" target=\"_blank\" style=\"margin-top: 1rem;\">📍 Ver ruta completa en Google Maps</a>\n          </div>\n        </div>\n      "
     },
     {
       "name": "1ª parada — Capilla de las Almas",
