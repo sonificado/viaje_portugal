@@ -9,14 +9,7 @@
   "sections": [
     {
       "name": "Ruta completa del día",
-      "content": `
-        <div class="stop">
-          <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 3 en orden: Cais das Naus, Panteão Nacional, Igreja de São Miguel, Sé de Lisboa, Castelo de São Jorge, Praça do Rossio, Elevador de Santa Justa, Convento do Carmo, Café A Brasileira, Casa Portuguesa do Pastel de Bacalhau, Arco da Rua Augusta, Praça do Comércio y Puente 25 de Abril.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Cais+das+Naus+Lisboa/Panteão+Nacional+Lisboa/Igreja+de+São+Miguel+Lisboa/Sé+de+Lisboa/Castelo+de+São+Jorge/Praça+do+Rossio+Lisboa/Elevador+de+Santa+Justa/Convento+do+Carmo/Café+A+Brasileira/Casa+Portuguesa+do+Pastel+de+Bacalhau/Arco+da+Rua+Augusta/Praça+do+Comércio+Lisboa/Puente+25+de+Abril" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
-          </div>
-        </div>
-      `
+      "content": "<div class='stop'>\n  <div class='stop-body' style='display: block; padding: 1rem;'>\n    <div class='stop-desc' style='margin: 0;'>Ruta de Google Maps con todas las paradas del día 3 en orden: Cais das Naus, Panteão Nacional, Igreja de São Miguel, Sé de Lisboa, Castelo de São Jorge, Praça do Rossio, Elevador de Santa Justa, Convento do Carmo, Café A Brasileira, Casa Portuguesa do Pastel de Bacalhau, Arco da Rua Augusta, Praça do Comércio y Puente 25 de Abril.</div>\n    <a class='maps-btn' href='https://www.google.com/maps/dir/Cais+das+Naus+Lisboa/Panteão+Nacional+Lisboa/Igreja+de+São+Miguel+Lisboa/Sé+de+Lisboa/Castelo+de+São+Jorge/Praça+do+Rossio+Lisboa/Elevador+de+Santa+Justa/Convento+do+Carmo/Café+A+Brasileira/Casa+Portuguesa+do+Pastel+de+Bacalhau/Arco+da+Rua+Augusta/Praça+do+Comércio+Lisboa/Puente+25+de+Abril' target='_blank' style='margin-top: 1rem;'>📍 Ver ruta completa en Google Maps</a>\n  </div>\n</div>"
     }
   ],
   "timeline": [
