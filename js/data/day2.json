@@ -105,37 +105,224 @@
           "mapsText": "Ver en Google Maps"
         }
       ]
+    },
+    {
+      "name": "3ª parada — Plaza de Giraldo",
+      "distance": "2 min de la Catedral",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Praça do Giraldo",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min"
+          ],
+          "description": "La plaza principal de Évora, corazón de la ciudad desde el siglo XVI. Es una plaza amplia y elegante rodeada de edificios históricos, con terrazas y ambiente animado.",
+          "items": [
+            "En el centro hay una fuente del siglo XVI con 8 caños que representan las 8 calles que convergen aquí",
+            "La Iglesia de Santo Antão está en un lado de la plaza",
+            "Es el lugar ideal para tomar algo y descansar entre visitas"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Praça+do+Giraldo+Évora",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "4ª parada — Iglesia de San Francisco",
+      "distance": "5 min de Plaza de Giraldo",
+      "stops": [
+        {
+          "icon": "💀",
+          "iconClass": "icon-pay",
+          "name": "Iglesia de San Francisco y Capilla de los Huesos",
+          "pills": [
+            {"type": "price", "text": "7 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–40 min",
+            "🕐 9h–17h"
+          ],
+          "description": "La iglesia gótica de San Francisco (siglo XV) es impresionante por sí misma, pero la verdadera atracción es la Capilla de los Huesos, construida en el siglo XVII utilizando huesos de más de 5.000 monjes.",
+          "items": [
+            "Las paredes y columnas de la capilla están recubiertas de huesos y cráneos humanos",
+            "Es una experiencia única y macabra, pero también una reflexión sobre la fugacidad de la vida",
+            "La iglesia también tiene un hermoso claustro manuelino"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 7 € · Horario: 9h–12h30 y 14h–17h<br><strong>Incluye:</strong> Iglesia, Capilla de los Huesos y claustro",
+          "mapsLink": "https://maps.google.com/?q=Igreja+de+São+Francisco+Évora",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "El viaje — Évora → Lisboa",
+      "distance": "≈ 130 km · 1h 15min",
+      "stops": [
+        {
+          "icon": "🚗",
+          "iconClass": "icon-walk",
+          "name": "Évora → Lisboa",
+          "pills": [
+            {"type": "blue", "text": "1h 15min aprox."}
+          ],
+          "meta": [
+            "📍 A6",
+            "130 km"
+          ],
+          "description": "Ruta por la A6 hacia Lisboa, cruzando el puente Vasco da Gama sobre el río Tajo. Es un trayecto cómodo y rápido que lleva directamente a la zona de Belém.",
+          "items": [
+            "El puente Vasco da Gama es el más largo de Europa (17 km)",
+            "Aparcamiento en Belém: hay parking de pago cerca del Monasterio de los Jerónimos"
+          ],
+          "mapsLink": "https://maps.google.com/?saddr=Évora,+Portugal&daddr=Lisboa,+Portugal",
+          "mapsText": "Ruta en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "5ª parada — Monasterio de los Jerónimos",
+      "distance": "Lisboa · Zona de Belém",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Monasterio de los Jerónimos",
+          "pills": [
+            {"type": "price", "text": "18 € entrada"},
+            {"type": "warn", "text": "¡Visitas guiadas!"}
+          ],
+          "meta": [
+            "⏱ 1h–1h 30min",
+            "🕐 13h30 / 14h30 / 15h30",
+            "🏛 UNESCO"
+          ],
+          "description": "Una de las joyas del estilo manuelino y del gótico tardío portugués. Construido entre 1501 y 1601, fue financiado con las especias de las Indias. Aquí están enterrados Vasco da Gama y Luís de Camões.",
+          "items": [
+            "Las visitas guiadas son cada hora en punto: 9h30, 10h30, 11h30, 12h30, 13h30, 14h30, 15h30",
+            "El claustro manuelino es una de las obras maestras de la arquitectura portuguesa",
+            "La iglesia tiene una nave única de 300 metros de longitud, la más larga de Portugal"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 18 € (visita guiada) · Iglesia gratuita<br><strong>Horario visitas:</strong> 13h30 / 14h30 / 15h30<br><a href=\"https://www.museusemonumentos.pt/en/pagina/tickets\" target=\"_blank\">→ museusemonumentos.pt</a>",
+          "mapsLink": "https://maps.google.com/?q=Mosteiro+dos+Jerónimos+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "6ª parada — Monumento a los Descubrimientos",
+      "distance": "3 min del Monasterio",
+      "stops": [
+        {
+          "icon": "⛵",
+          "iconClass": "icon-pay",
+          "name": "Monumento a los Descubrimientos",
+          "pills": [
+            {"type": "price", "text": "5 € entrada"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 10h–19h"
+          ],
+          "description": "Monumento de 52 metros de altura construido en 1960 para conmemorar el 500 aniversario de la muerte de Enrique el Navegante. La proa de la \"carabela de piedra\" está dirigida hacia el río.",
+          "items": [
+            "En la proa está Enrique el Navegante, detrás Vasco da Gama, y en el extremo opuesto Luís de Camões",
+            "El mirador en la cima ofrece vistas espectaculares de Belém y del río Tajo",
+            "En el suelo hay una rosa de los vientos de 50 metros de diámetro con un mapa del mundo"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 5 € · Horario: 10h–19h (abr–sep) · 10h–18h (oct–mar)",
+          "mapsLink": "https://maps.google.com/?q=Padrão+dos+Descobrimentos+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "7ª parada — Torre de Belém",
+      "distance": "3 min del Monumento",
+      "stops": [
+        {
+          "icon": "🗼",
+          "iconClass": "icon-pay",
+          "name": "Torre de Belém",
+          "pills": [
+            {"type": "price", "text": "6 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–40 min",
+            "🕐 10h–17h30",
+            "🏛 UNESCO"
+          ],
+          "description": "Fortaleza construida entre 1515 y 1519 para defender la entrada del río Tajo. Es una obra maestra del estilo manuelino, con decoraciones marítimas esculpidas en la piedra.",
+          "items": [
+            "La torre tiene cuatro pisos: terraza, sala del gobernador, sala de los reyes y capilla",
+            "Desde la terraza hay vistas del río Tajo y del Monumento a los Descubrimientos",
+            "El rinoceronte de piedra en la esquina es una de las primeras representaciones de este animal en Europa"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 6 € · Horario: 10h–17h30 (oct–mar) · 10h–18h30 (abr–sep)<br><strong>Gratis:</strong> domingos por la mañana hasta las 14h",
+          "mapsLink": "https://maps.google.com/?q=Torre+de+Belém+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "8ª parada — LX Factory",
+      "distance": "Barrio de Alcântara",
+      "stops": [
+        {
+          "icon": "🎨",
+          "iconClass": "icon-free",
+          "name": "LX Factory",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 45–60 min",
+            "🕐 9h–23h30"
+          ],
+          "description": "Un centro creativo instalado en una antigua fábrica textil de 1843. Es uno de los lugares más trendy de Lisboa, con estudios de diseño, tiendas de moda, galerías de arte, restaurantes y cafés.",
+          "items": [
+            "La famosa librería Ler Devagar tiene un avión colgado del techo",
+            "Hay murales de street art en todas las paredes",
+            "Los restaurantes y cafés son excelentes para cenar",
+            "El mercado de los domingos es muy popular"
+          ],
+          "ticketBox": "<strong>Precio:</strong> Gratuito · Horario: 9h–23h30<br><strong>Dirección:</strong> Rua Rodrigues Faria, Lisboa",
+          "mapsLink": "https://maps.google.com/?q=LX+Factory+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
     }
   ],
   "timeline": [
+    "Salida de Mérida · 8h00–8h30",
     "Llegada a Évora · Templo Romano — 20 min",
     "Catedral de Évora — 35 min",
     "Praça do Giraldo — 20 min",
     "Iglesia de San Francisco y Capilla de los Huesos — 35 min",
-    "Crómlech de los Almendros — 35 min",
-    "Llegada a Lisboa · Torre de Belém — 35 min",
-    "Monumento a los Descubrimientos — 25 min",
+    "Viaje a Lisboa · 1h 15min",
     "Monasterio de los Jerónimos — 1h 15min (visita guiada)",
-    "Palacio Nacional de Belém — 35 min",
-    "Palacio Nacional de Ajuda — 50 min",
+    "Monumento a los Descubrimientos — 25 min",
+    "Torre de Belém — 35 min",
     "LX Factory — 1h (cena y paseo)",
-    "Puente 25 de Abril — 20 min",
     "✅ Fin del recorrido · Noche en Lisboa"
   ],
   "summary": {
     "title": "Entradas · Día 2 · por persona",
     "rows": [
-      {"label": "Templo Romano, Praça do Giraldo, Crómlech, Puente 25 de Abril", "value": "Gratis"},
+      {"label": "Templo Romano, Praça do Giraldo", "value": "Gratis"},
       {"label": "Catedral de Évora", "value": "2,50 €"},
       {"label": "Iglesia de San Francisco y Capilla de los Huesos", "value": "7 €"},
-      {"label": "Torre de Belém", "value": "6 €"},
-      {"label": "Monumento a los Descubrimientos", "value": "5 €"},
       {"label": "Monasterio de los Jerónimos (visita guiada)", "value": "18 €"},
-      {"label": "Palacio Nacional de Belém", "value": "5 €"}
+      {"label": "Monumento a los Descubrimientos", "value": "5 €"},
+      {"label": "Torre de Belém", "value": "6 €"},
+      {"label": "LX Factory", "value": "Gratis"}
     ],
     "total": {
       "label": "Total entradas por persona",
-      "value": "43,50 €"
+      "value": "38,50 €"
     }
   }
 }

@@ -12,38 +12,449 @@
       "content": `
         <div class="stop">
           <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 6 en orden: Estação de São Bento, Sé do Porto, Igreja de São Francisco, Palácio da Bolsa, Ribeira, Ponte Dom Luís I, Livraria Lello, Torre dos Clérigos, Iglesias do Carmo y Palácio de Cristal.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Estação+de+São+Bento+Oporto/Sé+do+Porto/Igreja+de+São+Francisco+Oporto/Palácio+da+Bolsa+Oporto/Ribeira+Oporto/Ponte+Dom+Luís+I+Oporto/Livraria+Lello+Oporto/Torre+dos+Clérigos+Oporto/Igrejas+do+Carmo+Oporto/Palácio+de+Cristal+Oporto" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 6 en orden: Capilla de las Almas, Ayuntamiento de Oporto, Mercado de Bolhão, Café Majestic, Iglesia de Santo Ildefonso, Plaza de la Libertad, Librería Lello, Iglesias Siamesas, Torre dos Clérigos, Estação de São Bento, Convento de Santa Clara, Catedral de la Sé, Palacio de la Bolsa, Iglesia de São Francisco y Ribera de Oporto.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Capela+das+Almas+Oporto/Ayuntamiento+de+Oporto/Mercado+do+Bolhão+Oporto/Café+Majestic+Oporto/Igreja+de+Santo+Ildefonso+Oporto/Praça+da+Liberdade+Oporto/Livraria+Lello+Oporto/Igrejas+do+Carmo+Oporto/Torre+dos+Clérigos+Oporto/Estação+de+São+Bento+Oporto/Convento+de+Santa+Clara+Oporto/Sé+do+Porto/Palácio+da+Bolsa+Oporto/Igreja+de+São+Francisco+Oporto/Ribeira+Oporto" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
           </div>
         </div>
       `
+    },
+    {
+      "name": "1ª parada — Capilla de las Almas",
+      "distance": "Centro de Oporto",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Capela das Almas",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 7h30–17h30"
+          ],
+          "description": "Pequeña capilla del siglo XVIII conocida por sus azulejos azules que representan escenas de la vida de las almas. Un lugar pintoresco y fotogénico en el centro de Oporto.",
+          "items": [
+            "Azulejos azules característicos del siglo XVIII",
+            "Escenas religiosas representadas en las paredes",
+            "Ubicación céntrica y fácil acceso"
+          ],
+          "ticketBox": "<strong>Entrada:</strong> Gratuita · Horario: 7h30–17h30<br><strong>Destacado:</strong> Azulejos azules históricos",
+          "mapsLink": "https://maps.google.com/?q=Capela+das+Almas+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "2ª parada — Ayuntamiento de Oporto",
+      "distance": "5 min de la Capilla",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Ayuntamiento de Oporto (Câmara Municipal)",
+          "pills": [
+            {"type": "free", "text": "Solo exterior"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Edificio neoclásico del siglo XX que alberga el ayuntamiento de Oporto. Impresionante fachada con arquitectura monumental y escudos heráldicos.",
+          "items": [
+            "Fachada neoclásica imponente",
+            "Escudos heráldicos de la ciudad",
+            "Ubicación céntrica en la Praça do General Humberto Delgado"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Ayuntamiento+de+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "3ª parada — Mercado de Bolhão",
+      "distance": "3 min del Ayuntamiento",
+      "stops": [
+        {
+          "icon": "🛒",
+          "iconClass": "icon-free",
+          "name": "Mercado do Bolhão",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 8h–20h"
+          ],
+          "description": "Mercado histórico del siglo XIX, uno de los más emblemáticos de Oporto. Aquí se pueden encontrar productos frescos, pescado, carne y especialidades locales.",
+          "items": [
+            "Arquitectura de hierro del siglo XIX",
+            "Productos frescos y especialidades locales",
+            "Ambiente animado y auténtico"
+          ],
+          "ticketBox": "<strong>Horario:</strong> 8h–20h<br><strong>Destacado:</strong> Mercado histórico de hierro",
+          "mapsLink": "https://maps.google.com/?q=Mercado+do+Bolhão+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "4ª parada — Café Majestic",
+      "distance": "2 min del Mercado",
+      "stops": [
+        {
+          "icon": "☕",
+          "iconClass": "icon-pay",
+          "name": "Café Majestic",
+          "pills": [
+            {"type": "price", "text": "Café histórico"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 9h–23h"
+          ],
+          "description": "Café histórico de 1921, considerado uno de los más bellos del mundo. Decoración Art Nouveau original y ambiente elegante que ha acogido a escritores como J.K. Rowling.",
+          "items": [
+            "Decoración Art Nouveau del siglo XX",
+            "Famoso por ser lugar de inspiración de J.K. Rowling",
+            "Ambiente elegante y servicio tradicional"
+          ],
+          "ticketBox": "<strong>Fundado:</strong> 1921 · Horario: 9h–23h<br><strong>Especialidad:</strong> Café tradicional portugués",
+          "mapsLink": "https://maps.google.com/?q=Café+Majestic+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "5ª parada — Iglesia de Santo Ildefonso",
+      "distance": "3 min del Café Majestic",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Igreja de Santo Ildefonso",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 9h–12h15 y 15h–17h15"
+          ],
+          "description": "Iglesia barroca del siglo XVIII, famosa por sus más de 10.000 azulejos azules que cubren completamente su fachada exterior.",
+          "items": [
+            "Más de 10.000 azulejos azules en la fachada",
+            "Arquitectura barroca del siglo XVIII",
+            "Una de las iglesias más fotogénicas de Oporto"
+          ],
+          "ticketBox": "<strong>Horario:</strong> 9h–12h15 y 15h–17h15<br><strong>Destacado:</strong> 10.000+ azulejos azules",
+          "mapsLink": "https://maps.google.com/?q=Igreja+de+Santo+Ildefonso+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "6ª parada — Plaza de la Libertad",
+      "distance": "2 min de la Iglesia",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Praça da Liberdade",
+          "pills": [
+            {"type": "free", "text": "McDonalds histórico"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Plaza principal de Oporto, donde se encuentra uno de los McDonalds más bonitos del mundo, ubicado en un edificio histórico del siglo XIX con arquitectura imperial.",
+          "items": [
+            "McDonalds en edificio histórico del siglo XIX",
+            "Arquitectura imperial y elegante",
+            "Plaza céntrica con monumentos y fuentes"
+          ],
+          "ticketBox": "<strong>Destacado:</strong> McDonalds histórico<br><strong>Arquitectura:</strong> Imperial del siglo XIX",
+          "mapsLink": "https://maps.google.com/?q=Praça+da+Liberdade+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "7ª parada — Librería Lello",
+      "distance": "5 min de la Plaza",
+      "stops": [
+        {
+          "icon": "📚",
+          "iconClass": "icon-pay",
+          "name": "Livraria Lello e Irmão",
+          "pills": [
+            {"type": "price", "text": "12 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–45 min",
+            "🕐 9h–19h30"
+          ],
+          "description": "Una de las librerías más bellas del mundo, inaugurada en 1906. Famosa por su escalera de madera tallada, techo artístico y por ser inspiración para J.K. Rowling en Harry Potter.",
+          "items": [
+            "Escalera de madera tallada impresionante",
+            "Techo artístico con pinturas originales",
+            "Inspiración para Harry Potter"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 12 € (deducible al comprar un libro) · Horario: 9h–19h30<br><a href=\"https://tickets.livrarialello.pt/es-ES/1578/9582?s=search&f=nav&lang=es-ES\" target=\"_blank\">→ livrarialello.pt</a>",
+          "mapsLink": "https://maps.google.com/?q=Livraria+Lello+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "8ª parada — Iglesias Siamesas",
+      "distance": "3 min de la Librería",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Igrejas do Carmo e dos Carmelitas",
+          "pills": [
+            {"type": "free", "text": "\"A Casa Escondida\""}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Dos iglesias barrocas del siglo XVIII que parecen estar unidas, conocidas como las \"iglesias siamesas\". Entre ellas se encuentra \"A Casa Escondida\", una casa estrecha que es mucho más que una simple construcción: es un testigo silencioso de siglos de historia, un recordatorio de las luchas y triunfos del pueblo portugués y un destino turístico único que merece ser explorado y apreciado. Su legado perdurará mucho después de que sus paredes dejen de albergar residentes, ya que continúa inspirando curiosidad y admiración en todos los que tienen el privilegio de descubrirlo.",
+          "items": [
+            "Dos iglesias barrocas aparentemente unidas",
+            "\"A Casa Escondida\" entre las iglesias",
+            "Arquitectura del siglo XVIII con azulejos"
+          ],
+          "ticketBox": "<strong>Destacado:</strong> \"A Casa Escondida\"<br><strong>Historia:</strong> Testigo de siglos de historia portuguesa",
+          "mapsLink": "https://maps.google.com/?q=Igrejas+do+Carmo+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "9ª parada — Torre dos Clérigos",
+      "distance": "5 min de las Iglesias",
+      "stops": [
+        {
+          "icon": "🗼",
+          "iconClass": "icon-pay",
+          "name": "Torre dos Clérigos",
+          "pills": [
+            {"type": "price", "text": "6 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–45 min",
+            "🕐 9h–19h"
+          ],
+          "description": "Torre barroca del siglo XVIII, símbolo de Oporto. Con 75 metros de altura, ofrece vistas panorámicas de la ciudad y del río Duero.",
+          "items": [
+            "75 metros de altura con 225 escalones",
+            "Vistas panorámicas de Oporto y el río Duero",
+            "Arquitectura barroca del arquitecto Nicolau Nasoni"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 6 € · Horario: 9h–19h<br><strong>Altura:</strong> 75 metros · 225 escalones",
+          "mapsLink": "https://maps.google.com/?q=Torre+dos+Clérigos+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "10ª parada — Estação de São Bento",
+      "distance": "5 min de la Torre",
+      "stops": [
+        {
+          "icon": "🚂",
+          "iconClass": "icon-free",
+          "name": "Estação de São Bento",
+          "pills": [
+            {"type": "free", "text": "Azulejos históricos"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Estación de tren histórica del siglo XX, famosa por sus más de 20.000 azulejos azules que representan escenas de la historia de Portugal.",
+          "items": [
+            "Más de 20.000 azulejos azules en las paredes",
+            "Escenas históricas de Portugal representadas",
+            "Una de las estaciones más bellas del mundo"
+          ],
+          "ticketBox": "<strong>Destacado:</strong> 20.000+ azulejos azules<br><strong>Inauguración:</strong> 1916",
+          "mapsLink": "https://maps.google.com/?q=Estação+de+São+Bento+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "11ª parada — Convento de Santa Clara",
+      "distance": "3 min de São Bento",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Convento de Santa Clara",
+          "pills": [
+            {"type": "price", "text": "4 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–45 min",
+            "🕐 9h–12h30 y 14h–17h30"
+          ],
+          "description": "Convento gótico del siglo XIV, uno de los monumentos más importantes de Oporto. Destaca por su arquitectura gótica y por albergar el museo de Santa Clara.",
+          "items": [
+            "Arquitectura gótica del siglo XIV",
+            "Claustros y salas históricas",
+            "Museo con arte sacro y objetos históricos"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 4 € · Horario: 9h–12h30 y 14h–17h30<br><a href=\"https://santaclaraporto.pt/en/\" target=\"_blank\">→ santaclaraporto.pt</a>",
+          "mapsLink": "https://maps.google.com/?q=Convento+de+Santa+Clara+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "12ª parada — Catedral de la Sé",
+      "distance": "5 min de Santa Clara",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Sé do Porto (Catedral)",
+          "pills": [
+            {"type": "price", "text": "4 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–45 min",
+            "🕐 9h–18h30"
+          ],
+          "description": "Catedral románica del siglo XII, la iglesia más antigua de Oporto. Mezcla de estilos arquitectónicos que reflejan la historia de la ciudad a través de los siglos.",
+          "items": [
+            "Arquitectura románica, gótica y barroca",
+            "Claustro gótico del siglo XIV",
+            "Vistas panorámicas de la ciudad y del río"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 4 € · Horario: 9h–18h30<br><a href=\"https://www.tiqets.com/pt/bilhetes-se-catedral-do-porto-l180628/\" target=\"_blank\">→ tiqets.com</a>",
+          "mapsLink": "https://maps.google.com/?q=Sé+do+Porto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "13ª parada — Palacio de la Bolsa",
+      "distance": "3 min de la Sé",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-pay",
+          "name": "Palácio da Bolsa",
+          "pills": [
+            {"type": "price", "text": "14 € entrada"}
+          ],
+          "meta": [
+            "⏱ 45–60 min",
+            "🕐 9h30–13h y 14h–17h30"
+          ],
+          "description": "Palacio neoclásico del siglo XIX, antigua sede de la Bolsa de Oporto. Destaca por su Sala Árabe, una de las más impresionantes de Europa.",
+          "items": [
+            "Sala Árabe con decoración oriental espectacular",
+            "Arquitectura neoclásica del siglo XIX",
+            "Visitas guiadas obligatorias"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 14 € · Horario: 9h30–13h y 14h–17h30<br><a href=\"https://palaciodabolsa.com/en/tourism/\" target=\"_blank\">→ palaciodabolsa.com</a>",
+          "mapsLink": "https://maps.google.com/?q=Palácio+da+Bolsa+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "14ª parada — Iglesia de São Francisco",
+      "distance": "2 min del Palacio",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Igreja de São Francisco",
+          "pills": [
+            {"type": "price", "text": "3,50 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–45 min",
+            "🕐 9h–19h"
+          ],
+          "description": "Iglesia gótica del siglo XIV, famosa por su interior barroco recubierto de talha dourada (tallado en oro). Una de las iglesias más ricas de Portugal.",
+          "items": [
+            "Interior barroco con talha dourada (tallado en oro)",
+            "Arquitectura gótica del siglo XIV",
+            "Museo de arte sacro y tesoros"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 3,50 € · Horario: 9h–19h<br><strong>Destacado:</strong> Talha dourada (tallado en oro)",
+          "mapsLink": "https://maps.google.com/?q=Igreja+de+São+Francisco+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "15ª parada — Ribera de Oporto",
+      "distance": "5 min de São Francisco",
+      "stops": [
+        {
+          "icon": "🌊",
+          "iconClass": "icon-free",
+          "name": "Cais da Ribeira",
+          "pills": [
+            {"type": "free", "text": "Vistas Puente Don Luis I"}
+          ],
+          "meta": [
+            "⏱ 30–45 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Barrio histórico a orillas del río Duero, Patrimonio de la Humanidad. Aquí se encuentran las casas coloridas, restaurantes con terrazas y las mejores vistas del Puente Don Luis I.",
+          "items": [
+            "Casas coloridas típicas de Oporto",
+            "Restaurantes con terrazas junto al río",
+            "Vistas espectaculares del Puente Don Luis I"
+          ],
+          "ticketBox": "<strong>Ubicación:</strong> Cais da Ribeira 47, 4050-511 Porto, Portugal<br><strong>Destacado:</strong> Vistas Puente Don Luis I",
+          "mapsLink": "https://maps.google.com/?q=Cais+da+Ribeira+Oporto",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
     }
   ],
   "timeline": [
-    "Estação de São Bento — 20 min",
-    "Sé do Porto — 30 min",
-    "Igreja de São Francisco — 35 min",
-    "Palácio da Bolsa — 50 min",
-    "Ribeira — 40 min",
-    "Ponte Dom Luís I — 25 min",
-    "Livraria Lello e Irmão — 25 min",
-    "Torre dos Clérigos — 35 min",
+    "Capela das Almas — 20 min",
+    "Ayuntamiento de Oporto — 20 min",
+    "Mercado do Bolhão — 25 min",
+    "Café Majestic — 25 min",
+    "Igreja de Santo Ildefonso — 20 min",
+    "Praça da Liberdade — 20 min",
+    "Livraria Lello e Irmão — 40 min",
     "Igrejas do Carmo e dos Carmelitas — 25 min",
-    "Palácio de Cristal — 40 min",
+    "Torre dos Clérigos — 40 min",
+    "Estação de São Bento — 25 min",
+    "Convento de Santa Clara — 40 min",
+    "Sé do Porto — 40 min",
+    "Palácio da Bolsa — 55 min",
+    "Igreja de São Francisco — 40 min",
+    "Cais da Ribeira — 40 min",
     "✅ Fin del recorrido · Tarde libre en Oporto"
   ],
   "summary": {
     "title": "Entradas · Día 6 · por persona",
     "rows": [
-      {"label": "Estação de São Bento, Sé, Ribeira, Puente Luis I, Iglesias Siamesas, Palácio de Cristal", "value": "Gratis"},
-      {"label": "Igreja de São Francisco", "value": "6 €"},
-      {"label": "Palácio da Bolsa", "value": "12 €"},
-      {"label": "Livraria Lello", "value": "8 € (con reserva)"},
-      {"label": "Torre dos Clérigos", "value": "6 €"}
+      {"label": "Capela das Almas, Ayuntamiento, Mercado Bolhão, Praça da Liberdade, Iglesias Siamesas, Estação São Bento, Cais da Ribeira", "value": "Gratis"},
+      {"label": "Igreja de São Francisco", "value": "3,50 €"},
+      {"label": "Convento de Santa Clara", "value": "4 €"},
+      {"label": "Sé do Porto", "value": "4 €"},
+      {"label": "Torre dos Clérigos", "value": "6 €"},
+      {"label": "Livraria Lello", "value": "12 €"},
+      {"label": "Palácio da Bolsa", "value": "14 €"}
     ],
     "total": {
       "label": "Total entradas por persona",
-      "value": "32 €"
+      "value": "43,50 €"
     }
   }
 }

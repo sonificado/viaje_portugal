@@ -1,10 +1,10 @@
 {
   "navLabel": "DÍA 8 · SÁB 22 AGO",
-  "navName": "Salamanca → Redován",
+  "navName": "Salamanca",
   "ready": false,
-  "title": "Salamanca → Redován",
+  "title": "Salamanca",
   "date": "Sábado, 22 de agosto de 2026",
-  "subtitle": "Descubrimiento de Salamanca, ciudad universitaria y Patrimonio de la Humanidad, con su catedral, universidad y plaza mayor antes del regreso a Redován.",
+  "subtitle": "Descubrimiento de Salamanca, ciudad universitaria y Patrimonio de la Humanidad, con su catedral, universidad histórica, plaza mayor y monumentos emblemáticos antes del regreso a Redován.",
   "alerts": [],
   "sections": [
     {
@@ -12,32 +12,286 @@
       "content": `
         <div class="stop">
           <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 8 en orden: Plaza Mayor, Universidad, Catedrales, Casa de las Conchas y Puente Romano antes de regresar a Redován.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Plaza+Mayor+Salamanca/Universidad+de+Salamanca/Catedrales+Vieja+y+Nueva+Salamanca/Casa+de+las+Conchas+Salamanca/Puente+Romano+Salamanca/Redován,+España" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 8 en orden: Plaza Mayor, Casa de las Conchas, Plaza de Anaya, Catedrales Nueva y Vieja, Iglesia de San Sebastián, Palacio de Anaya y Universidad de Salamanca antes de regresar a Redován.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Plaza+Mayor+Salamanca/Casa+de+las+Conchas+Salamanca/Plaza+de+Anaya+Salamanca/Catedral+Nueva+de+Salamanca/Catedral+Vieja+de+Salamanca/Iglesia+de+San+Sebastián+Salamanca/Palacio+de+Anaya+Salamanca/Universidad+de+Salamanca/Redován,+España" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
           </div>
         </div>
       `
+    },
+    {
+      "name": "1ª parada — Plaza Mayor",
+      "distance": "Centro de Salamanca",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Plaza Mayor de Salamanca",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 25–30 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Una de las plazas más bellas de España, construida en el siglo XVIII. Considerada el corazón de Salamanca y un ejemplo perfecto del barroco castellano.",
+          "items": [
+            "Arquitectura barroca del siglo XVIII",
+            "Arcadas uniformes y fachada monumental",
+            "Cafeterías y terrazas en la plaza"
+          ],
+          "ticketBox": "<strong>Destacado:</strong> Una de las plazas más bellas de España<br><strong>Arquitectura:</strong> Barroco castellano del siglo XVIII",
+          "mapsLink": "https://maps.google.com/?q=Plaza+Mayor+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "2ª parada — Casa de las Conchas",
+      "distance": "3 min de la Plaza Mayor",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Casa de las Conchas",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 20–25 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Palacio gótico del siglo XV conocido por su fachada decorada con más de 300 conchas de vieira, símbolo de la orden de Santiago. Actualmente alberga la biblioteca pública.",
+          "items": [
+            "Fachada con más de 300 conchas de vieira",
+            "Arquitectura gótica del siglo XV",
+            "Biblioteca pública y centro cultural"
+          ],
+          "ticketBox": "<strong>Destacado:</strong> 300+ conchas de vieira en la fachada<br><strong>Arquitectura:</strong> Gótico del siglo XV",
+          "mapsLink": "https://maps.google.com/?q=Casa+de+las+Conchas+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "3ª parada — Plaza de Anaya",
+      "distance": "5 min de la Casa de las Conchas",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Plaza de Anaya",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Plaza histórica que rodea la Catedral Nueva y el Palacio de Anaya. Un espacio emblemático que conecta los monumentos más importantes de Salamanca.",
+          "items": [
+            "Vistas de la Catedral Nueva",
+            "Palacio de Anaya neoclásico",
+            "Centro del casco histórico"
+          ],
+          "ticketBox": "<strong>Destacado:</strong> Vistas de la Catedral Nueva<br><strong>Arquitectura:</strong> Neoclásico",
+          "mapsLink": "https://maps.google.com/?q=Plaza+de+Anaya+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "4ª parada — Catedral Nueva",
+      "distance": "En la Plaza de Anaya",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Catedral Nueva de Salamanca",
+          "pills": [
+            {"type": "price", "text": "10 € entrada"}
+          ],
+          "meta": [
+            "⏱ 45–60 min",
+            "🕐 10h–17h (cada 30min)",
+            "🏛 UNESCO"
+          ],
+          "description": "Catedral gótica del siglo XVI, construida junto a la Catedral Vieja. Destaca por su fachada decorada con esculturas detalladas y por el famoso astronauta escondido en la Puerta de Ramos.",
+          "items": [
+            "Fachada gótica con esculturas detalladas",
+            "Astronauta escondido en la Puerta de Ramos",
+            "Interior impresionante con vitrales y altares"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 10 € · Horario: 10h–17h (cada 30min)<br><a href=\"https://catedralsalamanca.org/visita-cultural/\" target=\"_blank\">→ catedralsalamanca.org</a>",
+          "mapsLink": "https://maps.google.com/?q=Catedral+Nueva+de+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "5ª parada — Catedral Vieja",
+      "distance": "Junto a la Catedral Nueva",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Catedral Vieja de Salamanca",
+          "pills": [
+            {"type": "price", "text": "Incluida en entrada"}
+          ],
+          "meta": [
+            "⏱ 30–45 min",
+            "🕐 10h–17h (cada 30min)",
+            "🏛 UNESCO"
+          ],
+          "description": "Catedral románica del siglo XII, una de las más antiguas de España. Destaca por su torre del gallo y por ser la catedral original de Salamanca.",
+          "items": [
+            "Arquitectura románica del siglo XII",
+            "Torre del Gallo con vistas panorámicas",
+            "Claustro y museo catedralicio"
+          ],
+          "ticketBox": "<strong>Precio:</strong> Incluida en entrada de Catedral Nueva<br><strong>Arquitectura:</strong> Románica del siglo XII",
+          "mapsLink": "https://maps.google.com/?q=Catedral+Vieja+de+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "6ª parada — Iglesia de San Sebastián",
+      "distance": "3 min de las Catedrales",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Iglesia de San Sebastián",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Iglesia histórica del siglo XII, una de las más antiguas de Salamanca. Destaca por su arquitectura románica y su ubicación céntrica.",
+          "items": [
+            "Arquitectura románica del siglo XII",
+            "Una de las iglesias más antiguas de la ciudad",
+            "Ubicación céntrica cerca de la universidad"
+          ],
+          "ticketBox": "<strong>Arquitectura:</strong> Románica del siglo XII<br><strong>Historia:</strong> Una de las iglesias más antiguas de Salamanca",
+          "mapsLink": "https://maps.google.com/?q=Iglesia+de+San+Sebastián+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "7ª parada — Palacio de Anaya",
+      "distance": "2 min de San Sebastián",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Palacio de Anaya",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 20–25 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Palacio neoclásico del siglo XIX que alberga la facultad de filología de la Universidad de Salamanca. Impresionante fachada y arquitectura académica.",
+          "items": [
+            "Arquitectura neoclásica del siglo XIX",
+            "Sede de la facultad de filología",
+            "Fachada monumental y elegante"
+          ],
+          "ticketBox": "<strong>Arquitectura:</strong> Neoclásico del siglo XIX<br><strong>Uso:</strong> Facultad de filología de la Universidad",
+          "mapsLink": "https://maps.google.com/?q=Palacio+de+Anaya+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "8ª parada — Universidad de Salamanca",
+      "distance": "3 min del Palacio de Anaya",
+      "stops": [
+        {
+          "icon": "🎓",
+          "iconClass": "icon-pay",
+          "name": "Universidad de Salamanca",
+          "pills": [
+            {"type": "price", "text": "10 € entrada"}
+          ],
+          "meta": [
+            "⏱ 45–60 min",
+            "🕐 10h–14h y 16h–20h",
+            "🏛 UNESCO"
+          ],
+          "description": "Una de las universidades más antiguas de Europa, fundada en 1218. Destaca por su fachada plateresca y por la famosa rana escondida sobre una calavera que los estudiantes deben encontrar para tener suerte en los exámenes.",
+          "items": [
+            "Fachada plateresca del siglo XVI",
+            "Buscar la rana sobre una calavera (tradición estudiantil)",
+            "Claustro histórico y patio de escuelas"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 10 € · Horario: 10h–14h y 16h–20h<br><strong>Tradición:</strong> Encontrar la rana sobre una calavera para suerte en exámenes",
+          "mapsLink": "https://maps.google.com/?q=Universidad+de+Salamanca",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "Regreso a Redován",
+      "distance": "≈ 500 km · 5h de Salamanca",
+      "stops": [
+        {
+          "icon": "🏠",
+          "iconClass": "icon-free",
+          "name": "Regreso a Redován",
+          "pills": [
+            {"type": "free", "text": "Fin del viaje"}
+          ],
+          "meta": [
+            "⏱ 5h aprox.",
+            "🕐 Tarde/noche"
+          ],
+          "description": "Regreso a Redován tras 8 días de viaje por Portugal y España. Un viaje inolvidable por Lisboa, Sintra, Oporto y Salamanca.",
+          "items": [
+            "Viaje de regreso de aproximadamente 500 km",
+            "Fin de un viaje de 8 días por Portugal y España",
+            "Recuerdos inolvidables de monumentos y ciudades históricas"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Redován,+España",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
     }
   ],
   "timeline": [
-    "Plaza Mayor de Salamanca — 25 min",
-    "Universidad de Salamanca — 50 min",
-    "Catedrales Vieja y Nueva — 1h 15min",
-    "Casa de las Conchas — 20 min",
-    "Puente Romano — 20 min",
+    "Plaza Mayor de Salamanca — 30 min",
+    "Casa de las Conchas — 25 min",
+    "Plaza de Anaya — 20 min",
+    "Catedral Nueva de Salamanca — 1h",
+    "Catedral Vieja de Salamanca — 45 min",
+    "Iglesia de San Sebastián — 20 min",
+    "Palacio de Anaya — 25 min",
+    "Universidad de Salamanca — 1h",
     "🍽️ Comida en Salamanca",
+    "🚗 Regreso a Redován (~500 km · 5h)",
     "🏠 Llegada a Redován · Fin del viaje"
   ],
   "summary": {
     "title": "Entradas · Día 8 · por persona",
     "rows": [
-      {"label": "Plaza Mayor, Casa de las Conchas, Puente Romano", "value": "Gratis"},
-      {"label": "Universidad de Salamanca", "value": "10 €"},
-      {"label": "Catedrales Vieja y Nueva", "value": "8 €"}
+      {"label": "Plaza Mayor de Salamanca", "value": "Gratis"},
+      {"label": "Casa de las Conchas", "value": "Gratis"},
+      {"label": "Plaza de Anaya", "value": "Gratis"},
+      {"label": "Iglesia de San Sebastián", "value": "Gratis"},
+      {"label": "Palacio de Anaya", "value": "Gratis"},
+      {"label": "Catedral Vieja de Salamanca", "value": "Incluida"},
+      {"label": "Catedral Nueva de Salamanca", "value": "10 €"},
+      {"label": "Universidad de Salamanca", "value": "10 €"}
     ],
     "total": {
       "label": "Total entradas por persona",
-      "value": "18 €"
+      "value": "20 €"
     }
   }
 }

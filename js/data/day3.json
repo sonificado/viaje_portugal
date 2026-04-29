@@ -12,42 +12,414 @@
       "content": `
         <div class="stop">
           <div class="stop-body" style="display: block; padding: 1rem;">
-            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 3 en orden: Cais das Naus, Panteão Nacional, Igreja de São Miguel, Sé de Lisboa, Castelo de São Jorge, Praça do Rossio, Elevador de Santa Justa, Convento do Carmo, Café A Brasileira, Casa Portuguesa do Pastel de Bacalhau, Arco da Rua Augusta, Praça do Comércio y Puente 25 de Abril.</div>
-            <a class="maps-btn" href="https://www.google.com/maps/dir/Cais+das+Naus+Lisboa/Panteão+Nacional+Lisboa/Igreja+de+São+Miguel+Lisboa/Sé+de+Lisboa/Castelo+de+São+Jorge/Praça+do+Rossio+Lisboa/Elevador+de+Santa+Justa/Convento+do+Carmo/Café+A+Brasileira/Casa+Portuguesa+do+Pastel+de+Bacalhau/Arco+da+Rua+Augusta/Praça+do+Comércio+Lisboa/Puente+25+de+Abril" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 3 en orden: Plaza Martim Moniz, Panteão Nacional, Miradouro de Santa Luzia, Igreja de São Miguel, Sé de Lisboa, Ayuntamiento de Lisboa, R. de Santa Justa, Elevador de Santa Justa, Café A Brasileira, Praça do Rossio, Casa Portuguesa do Pastel de Bacalhau, Arco da Rua Augusta, Praça do Comércio y Ribeira das Naus.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Plaza+Martim+Moniz+Lisboa/Panteão+Nacional+Lisboa/Miradouro+de+Santa+Luzia+Lisboa/Igreja+de+São+Miguel+Lisboa/Sé+de+Lisboa/Ayuntamiento+de+Lisboa/Rua+de+Santa+Justa+Lisboa/Elevador+de+Santa+Justa/Café+A+Brasileira/Praça+do+Rossio+Lisboa/Casa+Portuguesa+do+Pastel+de+Bacalhau/Arco+da+Rua+Augusta/Praça+do+Comércio+Lisboa/Ribeira+das+Naus+Lisboa" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
           </div>
         </div>
       `
+    },
+    {
+      "name": "1ª parada — Plaza Martim Moniz",
+      "distance": "Inicio del recorrido",
+      "stops": [
+        {
+          "icon": "🚋",
+          "iconClass": "icon-pay",
+          "name": "Plaza Martim Moniz",
+          "pills": [
+            {"type": "price", "text": "3,30 € tranvía 28"}
+          ],
+          "meta": [
+            "⏱ 10–15 min",
+            "🕐 Horario continuo"
+          ],
+          "description": "Plaza histórica donde comienza el famoso tranvía 28. Aquí podéis montar en el tranvía 28 por 3,30€ o tomar un Uber/taxi hasta el Panteón Nacional por 4-6€, que os planta en 10 minutos sin el estrés de la cola.",
+          "items": [
+            "El tranvía 28 es una experiencia icónica de Lisboa",
+            "Uber/taxi es más rápido y evita las largas colas del tranvía",
+            "Desde aquí se inicia el recorrido por el centro histórico"
+          ],
+          "ticketBox": "<strong>Opción 1:</strong> Tranvía 28 · 3,30 €<br><strong>Opción 2:</strong> Uber/taxi al Panteón · 4-6 €",
+          "mapsLink": "https://maps.google.com/?q=Plaza+Martim+Moniz+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "2ª parada — Panteón Nacional",
+      "distance": "5 min de Martim Moniz",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Panteão Nacional",
+          "pills": [
+            {"type": "free", "text": "Solo exterior"}
+          ],
+          "meta": [
+            "⏱ 10–15 min",
+            "🕐 Cerrado al interior"
+          ],
+          "description": "Monumento nacional construido en el siglo XVI como iglesia, convertido en panteón en el siglo XX. Solo se puede ver por fuera ya que está cerrado al interior.",
+          "items": [
+            "Impresionante fachada barroca con cúpula",
+            "Desde aquí se tienen buenas vistas de la ciudad",
+            "Es el punto de partida para explorar Alfama"
+          ],
+          "ticketBox": "<strong>Estado:</strong> Cerrado al interior · Solo visita exterior<br><strong>Dirección:</strong> Campo de Santa Clara, Lisboa",
+          "mapsLink": "https://maps.google.com/?q=Panteão+Nacional+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "3ª parada — Miradouro de Santa Luzia",
+      "distance": "3 min del Panteón",
+      "stops": [
+        {
+          "icon": "🌅",
+          "iconClass": "icon-free",
+          "name": "Miradouro de Santa Luzia",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Mirador con unas de las mejores vistas de Lisboa. Desde aquí se puede ver el Castillo de San Jorge, el río Tajo y los tejados típicos de Alfama.",
+          "items": [
+            "Vistas espectaculares del Castillo de San Jorge",
+            "Perfecto para fotos panorámicas de la ciudad",
+            "Azulejos tradicionales portugueses en las paredes"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Miradouro+de+Santa+Luzia+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "4ª parada — Iglesia de San Miguel",
+      "distance": "2 min del Miradouro",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Igreja de São Miguel",
+          "pills": [
+            {"type": "free", "text": "Solo exterior"}
+          ],
+          "meta": [
+            "⏱ 10 min",
+            "🕐 Cerrado al interior"
+          ],
+          "description": "Iglesia histórica del siglo XVIII, situada en el corazón de Alfama. Solo se puede ver por fuera ya que está cerrada al interior.",
+          "items": [
+            "Fachada barroca bien conservada",
+            "Ubicación privilegiada en el barrio de Alfama",
+            "Ejemplo de arquitectura religiosa portuguesa"
+          ],
+          "ticketBox": "<strong>Estado:</strong> Cerrado al interior · Solo visita exterior",
+          "mapsLink": "https://maps.google.com/?q=Igreja+de+São+Miguel+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "5ª parada — Catedral de Lisboa",
+      "distance": "5 min de São Miguel",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Sé de Lisboa (Catedral)",
+          "pills": [
+            {"type": "price", "text": "7 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–40 min",
+            "🕐 9h30–19h"
+          ],
+          "description": "La catedral más antigua de Lisboa, construida en el siglo XII. Es una mezcla de estilos arquitectónicos que refleja la historia de la ciudad a través de los siglos.",
+          "items": [
+            "Arquitectura románica, gótica y barroca",
+            "Claustro gótico del siglo XIV",
+            "Vistas panorámicas desde la terraza"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 7 € · Horario: 9h30–19h<br><strong>Ubicación:</strong> Largo da Sé, Lisboa",
+          "mapsLink": "https://maps.google.com/?q=Sé+de+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "6ª parada — Ayuntamiento de Lisboa",
+      "distance": "3 min de la Sé",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Ayuntamiento de Lisboa (Paços do Concelho)",
+          "pills": [
+            {"type": "free", "text": "Solo exterior"}
+          ],
+          "meta": [
+            "⏱ 10–15 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Edificio neoclásico del siglo XVIII que alberga el ayuntamiento de Lisboa. Impresionante fachada con escudos heráldicos y arquitectura monumental.",
+          "items": [
+            "Fachada neoclásica imponente",
+            "Escudos heráldicos de la ciudad",
+            "Ubicación céntrica en la Baixa"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Ayuntamiento+de+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "7ª parada — Rua de Santa Justa",
+      "distance": "5 min del Ayuntamiento",
+      "stops": [
+        {
+          "icon": "📸",
+          "iconClass": "icon-free",
+          "name": "Rua de Santa Justa",
+          "pills": [
+            {"type": "free", "text": "Foto obligatoria"}
+          ],
+          "meta": [
+            "⏱ 10 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Calle emblemática donde se encuentra el famoso Elevador de Santa Justa. Perfecta para hacer fotos del elevador y disfrutar de las vistas de la ciudad.",
+          "items": [
+            "Vistas espectaculares del elevador",
+            "Arquitectura de hierro del siglo XIX",
+            "Punto fotográfico clásico de Lisboa"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Rua+de+Santa+Justa+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "8ª parada — Elevador de Santa Justa",
+      "distance": "En la misma calle",
+      "stops": [
+        {
+          "icon": "🚡",
+          "iconClass": "icon-free",
+          "name": "Elevador de Santa Justa (Vistas gratuitas)",
+          "pills": [
+            {"type": "free", "text": "Vistas gratuitas"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Para acceder a las vistas gratuitas del elevador: bajad desde el Castillo hacia el Chiado, buscad la Praça Chafariz do Carmo (donde está el Museo Arqueológico de Carmo), girad a la izquierda mirando el Convento, al final de la calle hay unas escaleras (parece cafetería). Subís y ya estáis en la pasarela del elevador con vistas. Sin pagar nada.",
+          "items": [
+            "Vistas panorámicas gratuitas de Lisboa",
+            "Pasarela del elevador con vistas espectaculares",
+            "Acceso secreto sin pagar entrada"
+          ],
+          "ticketBox": "<strong>Acceso:</strong> Gratuito · Vistas desde la pasarela<br><strong>Ubicación:</strong> Praça Chafariz do Carmo",
+          "mapsLink": "https://maps.google.com/?q=Elevador+de+Santa+Justa+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "9ª parada — Café A Brasileira",
+      "distance": "5 min del Elevador",
+      "stops": [
+        {
+          "icon": "☕",
+          "iconClass": "icon-free",
+          "name": "Café A Brasileira",
+          "pills": [
+            {"type": "free", "text": "Café histórico"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 8h–20h"
+          ],
+          "description": "Café histórico del Chiado, fundado en 1905. Es famoso por su estatua de Fernando Pessoa y por ser uno de los cafés más emblemáticos de Lisboa.",
+          "items": [
+            "Foto obligatoria con la estatua de Fernando Pessoa",
+            "Decoración Art Nouveau original",
+            "Uno de los cafés más antiguos y prestigiosos de Lisboa"
+          ],
+          "ticketBox": "<strong>Fundado:</strong> 1905 · Horario: 8h–20h<br><strong>Especialidad:</strong> Café tradicional portugués",
+          "mapsLink": "https://maps.google.com/?q=Café+A+Brasileira+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "10ª parada — Plaza del Rossio",
+      "distance": "3 min de A Brasileira",
+      "stops": [
+        {
+          "icon": "☕",
+          "iconClass": "icon-free",
+          "name": "Praça do Rossio + Café da Nicola",
+          "pills": [
+            {"type": "free", "text": "Café histórico"}
+          ],
+          "meta": [
+            "⏱ 25–30 min",
+            "🕐 8h–22h"
+          ],
+          "description": "Plaza principal de Lisboa, corazón de la ciudad desde el siglo XIX. Aquí se encuentra el Café da Nicola, fundado en 1787, donde dicen que sirven el mejor espresso de Lisboa.",
+          "items": [
+            "Café da Nicola: fundado en 1787, mejor espresso de Lisboa",
+            "Plaza histórica con arquitectura del siglo XIX",
+            "Ambiente animado y terrazas al aire libre"
+          ],
+          "ticketBox": "<strong>Café da Nicola:</strong> Fundado en 1787<br><strong>Especialidad:</strong> Mejor espresso de Lisboa",
+          "mapsLink": "https://maps.google.com/?q=Praça+do+Rossio+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "11ª parada — Casa Portuguesa del Pastel de Bacalao",
+      "distance": "5 min del Rossio",
+      "stops": [
+        {
+          "icon": "🐟",
+          "iconClass": "icon-pay",
+          "name": "Casa Portuguesa do Pastel de Bacalhau",
+          "pills": [
+            {"type": "price", "text": "Pastelito de bacalao"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 10h–22h"
+          ],
+          "description": "Tienda especializada en el pastel de bacalao, uno de los dulces más típicos de Portugal. Aquí podéis probar el auténtico pastelito de bacalao.",
+          "items": [
+            "Probar el auténtico pastelito de bacalao",
+            "Variedad de dulces tradicionales portugueses",
+            "Experiencia culinaria típica de Lisboa"
+          ],
+          "ticketBox": "<strong>Especialidad:</strong> Pastel de bacalao<br><strong>Precio:</strong> Variable según producto",
+          "mapsLink": "https://maps.google.com/?q=Casa+Portuguesa+do+Pastel+de+Bacalhau+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "12ª parada — Arco de Rua Augusta",
+      "distance": "3 min del Pastel de Bacalhau",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-pay",
+          "name": "Arco da Rua Augusta",
+          "pills": [
+            {"type": "price", "text": "3,50 € entrada"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 9h–21h"
+          ],
+          "description": "Arco triunfal del siglo XIX que conecta la Baixa con la Praça do Comércio. Desde la cima se tienen vistas espectaculares de la plaza y del río Tajo.",
+          "items": [
+            "Vistas panorámicas de Praça do Comércio",
+            "Arquitectura neoclásica impresionante",
+            "Estatuas de figuras históricas portuguesas"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 3,50 € · Horario: 9h–21h<br><strong>Vistas:</strong> Praça do Comércio y río Tajo",
+          "mapsLink": "https://maps.google.com/?q=Arco+da+Rua+Augusta+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "13ª parada — Plaza del Comercio",
+      "distance": "2 min del Arco",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Praça do Comércio",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 25–30 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "La plaza más grande de Lisboa, situada frente al río Tajo. Antiguamente era el lugar donde llegaban los barcos de las Indias. Hoy ofrece vistas impresionantes del puente 25 de Abril.",
+          "items": [
+            "Vistas espectaculares del puente 25 de Abril",
+            "Plaza monumental con arquitectura del siglo XVIII",
+            "Frente al río Tajo, perfecta para pasear"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Praça+do+Comércio+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "14ª parada — Ribeira das Naus",
+      "distance": "5 min de Praça do Comércio",
+      "stops": [
+        {
+          "icon": "🌊",
+          "iconClass": "icon-free",
+          "name": "Ribeira das Naus",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Paseo marítimo a lo largo del río Tajo, antiguamente donde se construían los barcos. Hoy es un lugar perfecto para pasear, disfrutar de las vistas y relajarse junto al agua.",
+          "items": [
+            "Paseo marítimo con vistas al río Tajo",
+            "Lugar histórico donde se construían los barcos",
+            "Perfecto para terminar el día con un paseo relajante"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Ribeira+das+Naus+Lisboa",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
     }
   ],
   "timeline": [
-    "Cais das Naus — 20 min",
-    "Panteão Nacional — 35 min",
-    "Igreja de São Miguel — 20 min",
-    "Sé de Lisboa — 30 min",
-    "Castelo de São Jorge — 1h 15min",
-    "Praça do Rossio + Café da Nicola — 25 min",
-    "Elevador de Santa Justa — 25 min",
-    "Convento do Carmo — 35 min",
-    "Café A Brasileira — 20 min",
-    "Casa Portuguesa do Pastel de Bacalhau — 20 min",
+    "Plaza Martim Moniz · Tranvía 28 o Uber/taxi — 15 min",
+    "Panteão Nacional (solo exterior) — 15 min",
+    "Miradouro de Santa Luzia — 20 min",
+    "Igreja de São Miguel (solo exterior) — 10 min",
+    "Sé de Lisboa — 35 min",
+    "Ayuntamiento de Lisboa — 15 min",
+    "Rua de Santa Justa (fotos) — 10 min",
+    "Elevador de Santa Justa (vistas gratuitas) — 25 min",
+    "Café A Brasileira — 25 min",
+    "Praça do Rossio + Café da Nicola — 30 min",
+    "Casa Portuguesa do Pastel de Bacalhau — 25 min",
     "Arco da Rua Augusta — 25 min",
-    "Praça do Comércio — 25 min",
-    "Puente 25 de Abril — 20 min",
+    "Praça do Comércio — 30 min",
+    "Ribeira das Naus — 25 min",
     "✅ Fin del recorrido · Noche en Lisboa"
   ],
   "summary": {
     "title": "Entradas · Día 3 · por persona",
     "rows": [
-      {"label": "Cais das Naus, São Miguel, Rossio, Café A Brasileira, Praça do Comércio, Puente 25 de Abril, Pastel de Bacalhau", "value": "Gratis"},
-      {"label": "Panteão Nacional", "value": "4 €"},
-      {"label": "Castelo de São Jorge", "value": "10 €"},
-      {"label": "Elevador de Santa Justa", "value": "5,30 €"},
-      {"label": "Convento do Carmo", "value": "5 €"},
+      {"label": "Panteão Nacional, Miradouro de Santa Luzia, Igreja de São Miguel, Ayuntamiento, Rua de Santa Justa, Elevador (vistas), Praça do Comércio, Ribeira das Naus", "value": "Gratis"},
+      {"label": "Tranvía 28 (desde Martim Moniz)", "value": "3,30 €"},
+      {"label": "Sé de Lisboa", "value": "7 €"},
       {"label": "Arco da Rua Augusta", "value": "3,50 €"}
     ],
     "total": {
       "label": "Total entradas por persona",
-      "value": "27,80 €"
+      "value": "13,80 €"
     }
   }
 }

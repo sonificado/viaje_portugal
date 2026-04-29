@@ -17,30 +17,224 @@
           </div>
         </div>
       `
+    },
+    {
+      "name": "El viaje — Lisboa → Alcobaça",
+      "distance": "≈ 120 km · 1h 15min",
+      "stops": [
+        {
+          "icon": "🚗",
+          "iconClass": "icon-walk",
+          "name": "Lisboa → Alcobaça",
+          "pills": [
+            {"type": "blue", "text": "1h 15min aprox."}
+          ],
+          "meta": [
+            "📍 A8",
+            "120 km"
+          ],
+          "description": "Salida de Lisboa hacia Alcobaça, donde se encuentra uno de los monasterios más importantes de Portugal.",
+          "items": [
+            "Salida recomendada: 8h00–8h30",
+            "Primer destino del día: Monasterio de Alcobaça"
+          ],
+          "mapsLink": "https://maps.google.com/?saddr=Lisboa,+Portugal&daddr=Alcobaça,+Portugal",
+          "mapsText": "Ruta en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "1ª parada — Monasterio de Alcobaça",
+      "distance": "Centro de Alcobaça",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Monasterio Santa María de Alcobaça",
+          "pills": [
+            {"type": "price", "text": "15 € entrada"}
+          ],
+          "meta": [
+            "⏱ 1h–1h 30min",
+            "🕐 9h–14h o 14h–18h30",
+            "🏛 UNESCO"
+          ],
+          "description": "Monasterio cisterciense del siglo XII, uno de los más importantes de Portugal. Fundado por el primer rey de Portugal, Afonso Henriques, en honor a la Virgen María tras la conquista de Santarém.",
+          "items": [
+            "Arquitectura gótica cisterciense impresionante",
+            "Tumbas de Pedro I e Inés de Castro, historia de amor trágica",
+            "Claustros y jardines serenos"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 15 € · Horario: 9h–14h o 14h–18h30<br><a href=\"https://mmp.bymeoblueticket.pt/Eventos/14718?Name=MOSTEIRO-DE-ALCOBA%C3%87A\" target=\"_blank\">→ mmp.bymeoblueticket.pt</a>",
+          "mapsLink": "https://maps.google.com/?q=Mosteiro+de+Alcobaça",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "2ª parada — Monasterio de Batalha",
+      "distance": "≈ 20 km · 20 min de Alcobaça",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Monasterio de Batalha",
+          "pills": [
+            {"type": "price", "text": "15 € entrada"}
+          ],
+          "meta": [
+            "⏱ 1h–1h 30min",
+            "🕐 9h–14h o 14h–18h30",
+            "🏛 UNESCO"
+          ],
+          "description": "Monasterio dominico construido en el siglo XIV para conmemorar la victoria portuguesa en la Batalla de Aljubarrota. Es una obra maestra del gótico portugués.",
+          "items": [
+            "Capilla del Fundador con tumbas reales",
+            "Claustro del Rey Juan I con arquitectura gótica",
+            "Capelas Incompletas, obra maestra del gótico tardío"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 15 € · Horario: 9h–14h o 14h–18h30<br><a href=\"https://www.tiqets.com/es/checkout/entradas-para-monasterio-de-batalha-entrada-p1020542/booking_details/?selected_date=2026-08-19\" target=\"_blank\">→ tiqets.com</a>",
+          "mapsLink": "https://maps.google.com/?q=Mosteiro+da+Batalha",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "3ª parada — Santuario de Fátima",
+      "distance": "≈ 50 km · 45 min de Batalha",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Santuario de Fátima",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 1h–1h 30min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Uno de los santuarios marianos más importantes del mundo, donde se apareció la Virgen María a tres pastores en 1917. Lugar de peregrinación mundial.",
+          "items": [
+            "Basílica de Nuestra Señora del Rosario",
+            "Capilla de las Apariciones, lugar de las visiones",
+            "Plaza del Santuario con capacidad para millones de peregrinos"
+          ],
+          "ticketBox": "<strong>Entrada:</strong> Gratuita · Acceso libre<br><strong>Importancia:</strong> Santuario mariano mundial",
+          "mapsLink": "https://maps.google.com/?q=Santuario+de+Fátima",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "4ª parada — Coímbra",
+      "distance": "≈ 70 km · 1h de Fátima",
+      "stops": [
+        {
+          "icon": "🎓",
+          "iconClass": "icon-pay",
+          "name": "Universidad de Coímbra",
+          "pills": [
+            {"type": "price", "text": "16,50 € entrada"}
+          ],
+          "meta": [
+            "⏱ 2h–2h 30min",
+            "🕐 9h20–19h (cada 20min)",
+            "🏛 UNESCO"
+          ],
+          "description": "Una de las universidades más antiguas de Europa, fundada en 1290. Su campus histórico es impresionante, con la famosa Biblioteca Joanina.",
+          "items": [
+            "Biblioteca Joanina, una de las más bellas del mundo",
+            "Plaza 8 de Mayo, corazón de la universidad",
+            "Iglesia de Santa Cruz y Café Santa Cruz"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 16,50 € · Horario: 9h20–19h (cada 20min)<br><a href=\"https://visit.uc.pt/en/program-list\" target=\"_blank\">→ visit.uc.pt</a>",
+          "mapsLink": "https://maps.google.com/?q=Universidade+de+Coimbra",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "5ª parada — Aveiro",
+      "distance": "≈ 60 km · 45 min de Coímbra",
+      "stops": [
+        {
+          "icon": "🚤",
+          "iconClass": "icon-free",
+          "name": "Aveiro — Costa Nova",
+          "pills": [
+            {"type": "free", "text": "Paseo por canales"}
+          ],
+          "meta": [
+            "⏱ 2h–2h 30min",
+            "🕐 Acceso libre"
+          ],
+          "description": "Conocida como la \"Venecia de Portugal\" por sus canales y coloridas casas de pescadores. Aquí podéis probar los famosos ovos moles y pasear por la playa Costa Nova.",
+          "items": [
+            "Paseo en moliceiro (barco tradicional) por los canales",
+            "Probar ovos moles, dulce típico de Aveiro",
+            "Playa Costa Nova con casas coloridas"
+          ],
+          "ticketBox": "<strong>Especialidad:</strong> Ovos moles<br><strong>Destacado:</strong> Playa Costa Nova",
+          "mapsLink": "https://maps.google.com/?q=Aveiro+Costa+Nova",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "Llegada a Oporto",
+      "distance": "≈ 75 km · 1h de Aveiro",
+      "stops": [
+        {
+          "icon": "🏙️",
+          "iconClass": "icon-free",
+          "name": "Oporto",
+          "pills": [
+            {"type": "free", "text": "Llegada"}
+          ],
+          "meta": [
+            "⏱ Llegada",
+            "🕐 Tarde/noche"
+          ],
+          "description": "Llegada a Oporto, la segunda ciudad más importante de Portugal, famosa por su vino, arquitectura y el río Duero.",
+          "items": [
+            "Ciudad histórica Patrimonio de la Humanidad",
+            "Famosa por el vino de Oporto",
+            "Centro histórico con arquitectura azulejada"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Porto,+Portugal",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
     }
   ],
   "timeline": [
-    "Salida desde Lisboa",
-    "Monasterio de Alcobaça · 1h visita",
-    "Monasterio de Batalha · 1h visita",
-    "Santuario de Fátima · 1h visita",
-    "Coímbra — Universidad + centro · 2h 15min",
-    "Aveiro — moliceiro, canales, Costa Nova · 2h 30min",
+    "Salir de Lisboa · 8h00–8h30",
+    "Viaje a Alcobaça · 1h 15min",
+    "Monasterio Santa María de Alcobaça — 1h 15min",
+    "Viaje a Batalha · 20 min",
+    "Monasterio de Batalha — 1h 15min",
+    "Viaje a Fátima · 45 min",
+    "Santuario de Fátima + Capilla de las Apariciones — 1h",
+    "Viaje a Coímbra · 1h",
+    "Universidad de Coímbra + Plaza 8 de Mayo + Iglesia Santa Cruz + Café Santa Cruz — 2h",
+    "Viaje a Aveiro · 45 min",
+    "Aveiro — Canales + Ovos moles + Playa Costa Nova — 2h",
+    "Viaje a Oporto · 1h",
     "🎉 Llegada a Oporto"
   ],
   "summary": {
     "title": "Entradas · Día 5 · por persona",
     "rows": [
-      {"label": "Monasterio de Alcobaça", "value": "6 €"},
-      {"label": "Monasterio de Batalha", "value": "6 €"},
-      {"label": "Santuario de Fátima", "value": "Gratis"},
-      {"label": "Universidad de Coímbra (ticket completo)", "value": "12,50 €"},
-      {"label": "Paseo en moliceiro · Aveiro", "value": "13–15 €"},
-      {"label": "Museos Aveiro (opcionales)", "value": "2–4 € c/u"}
+      {"label": "Santuario de Fátima, Capilla de las Apariciones", "value": "Gratis"},
+      {"label": "Aveiro — Canales, Costa Nova", "value": "Gratis"},
+      {"label": "Monasterio Santa María de Alcobaça", "value": "15 €"},
+      {"label": "Monasterio de Batalha", "value": "15 €"},
+      {"label": "Universidad de Coímbra", "value": "16,50 €"}
     ],
     "total": {
-      "label": "Total sin opcionales",
-      "value": "≈ 37–40 €"
+      "label": "Total entradas por persona",
+      "value": "46,50 €"
     }
   }
 }
