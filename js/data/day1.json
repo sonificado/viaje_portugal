@@ -83,7 +83,7 @@
           "iconClass": "icon-pay",
           "name": "Cripta Arqueológica de Santa Eulalia",
           "pills": [
-            {"type": "price", "text": "Incluido en combo 15 €"}
+            {"type": "price", "text": "Incluido en combo 17,50 €"}
           ],
           "meta": [
             "⏱ 25–35 min",
@@ -111,7 +111,7 @@
           "iconClass": "icon-pay",
           "name": "Teatro Romano de Mérida",
           "pills": [
-            {"type": "price", "text": "Incluido en combo 15 €"}
+            {"type": "price", "text": "Incluido en combo 17,50 €"}
           ],
           "meta": [
             "⏱ 1h–1h 30min (ambos)",
@@ -125,7 +125,7 @@
             "Bajo la orchestra quedan restos de mosaicos de mármol originales",
             "El acceso a los restos de la Casa del Anfiteatro (con mosaicos) también está incluido en el combo"
           ],
-          "ticketBox": "<strong>💡 Compra el ticket combinado (15 €):</strong> cubre Teatro, Anfiteatro, Cripta de Santa Eulalia y Templo de Diana (todos los que visitáis hoy). Individualmente costaría ~22 €. Ahorro de 7 € por persona.<br><strong>Horario:</strong> 9h–21h (abr–sep) · Última entrada 20h30<br><strong>Reducida:</strong> 8 € (jóvenes 13–17 años, estudiantes hasta 25, mayores de 65, discapacidad)<br><strong>Gratis:</strong> menores de 13 años acompañados<br><a href=\"https://www.consorciomerida.org/conjunto/visita/entradas\" target=\"_blank\">→ Comprar online en consorciomerida.org</a>",
+          "ticketBox": "<strong>💡 Compra el ticket combinado (17,50 €):</strong> cubre Teatro, Anfiteatro, Cripta de Santa Eulalia y Templo de Diana (todos los que visitáis hoy). <br><strong>Horario:</strong> 9h–21h (abr–sep) · Última entrada 20h30<br><a href=\"https://consorciomerida.sacatuentrada.es/es/lotes/circuito-sin-guia-teatro-anfiteatro-2020\" target=\"_blank\">→ Comprar online en consorciomerida.org</a>",
           "mapsLink": "https://maps.google.com/?q=Teatro+Romano+Mérida",
           "mapsText": "Ver en Google Maps"
         },
@@ -134,7 +134,7 @@
           "iconClass": "icon-pay",
           "name": "Anfiteatro Romano",
           "pills": [
-            {"type": "price", "text": "Incluido en combo 15 €"}
+            {"type": "price", "text": "Incluido en combo 17,50 €"}
           ],
           "meta": [
             "⏱ 20–30 min",
@@ -190,7 +190,7 @@
           "iconClass": "icon-pay",
           "name": "Templo de Diana",
           "pills": [
-            {"type": "price", "text": "Incluido en combo 15 €"}
+            {"type": "price", "text": "Incluido en combo 17,50 €"}
           ],
           "meta": [
             "⏱ 20 min",
