@@ -1,0 +1,141 @@
+{
+  "navLabel": "DÍA 2 · DOM 16 AGO",
+  "navName": "→ Lisboa",
+  "ready": false,
+  "title": "Mérida → Évora → Lisboa",
+  "date": "Domingo, 16 de agosto de 2026",
+  "subtitle": "Évora, ciudad museo declarada Patrimonio de la Humanidad, y llegada a Lisboa. Salida recomendada: 8h–8h30. Llegada a Lisboa: ~19h30.",
+  "alerts": [
+    {
+      "type": "warn",
+      "icon": "⚠️",
+      "title": "Monasterio de los Jerónimos",
+      "content": "Las visitas guiadas son cada hora (9h30, 10h30, 11h30, 12h30, 13h30, 14h30, 15h30). Llegar con tiempo para no perder el turno."
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ruta completa — Évora",
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas de Évora en orden: Templo Romano, Catedral, Plaza de Giraldo, Iglesia de San Francisco y Crómlech de los Almendros.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Templo+Romano+Évora/Catedral+de+Évora/Praça+do+Giraldo+Évora/Igreja+de+São+Francisco+Évora/Cromlech+dos+Almendres+Évora" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa de Évora en Google Maps</a>
+          </div>
+        </div>
+      `
+    },
+    {
+      "name": "El viaje — Mérida → Évora",
+      "distance": "165 km · 1h 50min (PEAJE) / 170 km · 2h (SIN PEAJE)",
+      "stops": [
+        {
+          "icon": "🚗",
+          "iconClass": "icon-walk",
+          "name": "Mérida → Évora",
+          "pills": [
+            {"type": "blue", "text": "2h aprox."}
+          ],
+          "meta": [
+            "📍 A-6 / IP2",
+            "170 km"
+          ],
+          "description": "Ruta por la A-6 hasta Badajoz, luego la IP2 hacia Évora. Cruzar la frontera por Badajoz/Elvas. Évora está en el Alentejo portugués, una región de llanuras y viñedos.",
+          "items": [
+            "Salida recomendada: 8h00–8h30 para llegar a Évora a eso de las 11h",
+            "Aparcamiento en Évora: hay parking gratuito cerca del Templo Romano (Praça do Giraldo)"
+          ],
+          "mapsLink": "https://maps.google.com/?saddr=Mérida,+España&daddr=Évora,+Portugal",
+          "mapsText": "Ruta en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "1ª parada — Templo Romano de Évora",
+      "distance": "Centro de Évora",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Templo Romano (Templo de Diana)",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min",
+            "🕐 Abierto 24h",
+            "🏛 UNESCO"
+          ],
+          "description": "Uno de los templos romanos mejor conservados de la Península Ibérica, del siglo I d.C. A pesar de su nombre popular, no estaba dedicado a Diana sino al culto imperial. Las 14 columnas corintias que se mantienen en pie son impresionantes, especialmente al atardecer cuando la luz las baña.",
+          "items": [
+            "El templo formaba parte del foro de la ciudad romana de Liberalitas Iulia",
+            "Durante siglos fue utilizado como matadero, lo que paradójicamente contribuyó a su conservación",
+            "Es el monumento más icónico de Évora y aparece en todas las postales de la ciudad"
+          ],
+          "ticketBox": "<strong>Precio:</strong> Gratuito · Visita libre · Abierto 24h<br><strong>Dirección:</strong> Praça do Giraldo, Évora",
+          "mapsLink": "https://maps.google.com/?q=Templo+Romano+Évora",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "2ª parada — Catedral de Évora",
+      "distance": "3 min del Templo Romano",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Catedral de Évora (Sé de Évora)",
+          "pills": [
+            {"type": "price", "text": "2,50 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–40 min",
+            "🕐 9h–17h",
+            "🏛 UNESCO"
+          ],
+          "description": "La mayor catedral medieval de Portugal, construida entre 1186 y 1204. Es una mezcla fascinante de estilos: románico en la estructura, gótico en las bóvedas, y renacentista y barroco en añadidos posteriores. La torre es una de las más altas de Portugal.",
+          "items": [
+            "El claustro gótico del siglo XIV es especialmente hermoso",
+            "Desde la terraza de la catedral hay vistas panorámicas de Évora y del Alentejo",
+            "El interior destaca por su nave única y las capillas laterales"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 2,50 € · Horario: 9h–12h30 y 14h–17h<br><strong>Gratis:</strong> domingos por la mañana",
+          "mapsLink": "https://maps.google.com/?q=Catedral+de+Évora",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    "Llegada a Évora · Templo Romano — 20 min",
+    "Catedral de Évora — 35 min",
+    "Praça do Giraldo — 20 min",
+    "Iglesia de San Francisco y Capilla de los Huesos — 35 min",
+    "Crómlech de los Almendros — 35 min",
+    "Llegada a Lisboa · Torre de Belém — 35 min",
+    "Monumento a los Descubrimientos — 25 min",
+    "Monasterio de los Jerónimos — 1h 15min (visita guiada)",
+    "Palacio Nacional de Belém — 35 min",
+    "Palacio Nacional de Ajuda — 50 min",
+    "LX Factory — 1h (cena y paseo)",
+    "Puente 25 de Abril — 20 min",
+    "✅ Fin del recorrido · Noche en Lisboa"
+  ],
+  "summary": {
+    "title": "Entradas · Día 2 · por persona",
+    "rows": [
+      {"label": "Templo Romano, Praça do Giraldo, Crómlech, Puente 25 de Abril", "value": "Gratis"},
+      {"label": "Catedral de Évora", "value": "2,50 €"},
+      {"label": "Iglesia de San Francisco y Capilla de los Huesos", "value": "7 €"},
+      {"label": "Torre de Belém", "value": "6 €"},
+      {"label": "Monumento a los Descubrimientos", "value": "5 €"},
+      {"label": "Monasterio de los Jerónimos (visita guiada)", "value": "18 €"},
+      {"label": "Palacio Nacional de Belém", "value": "5 €"}
+    ],
+    "total": {
+      "label": "Total entradas por persona",
+      "value": "43,50 €"
+    }
+  }
+}

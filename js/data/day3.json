@@ -1,0 +1,53 @@
+{
+  "navLabel": "DÍA 3 · LUN 17 AGO",
+  "navName": "Lisboa",
+  "ready": false,
+  "title": "Lisboa — Centro histórico",
+  "date": "Lunes, 17 de agosto de 2026",
+  "subtitle": "Recorrido por el centro histórico de Lisboa: Alfama, el castillo, los barrios típicos y los monumentos más emblemáticos de la capital portuguesa.",
+  "alerts": [],
+  "sections": [
+    {
+      "name": "Ruta completa del día",
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 3 en orden: Cais das Naus, Panteão Nacional, Igreja de São Miguel, Sé de Lisboa, Castelo de São Jorge, Praça do Rossio, Elevador de Santa Justa, Convento do Carmo, Café A Brasileira, Casa Portuguesa do Pastel de Bacalhau, Arco da Rua Augusta, Praça do Comércio y Puente 25 de Abril.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Cais+das+Naus+Lisboa/Panteão+Nacional+Lisboa/Igreja+de+São+Miguel+Lisboa/Sé+de+Lisboa/Castelo+de+São+Jorge/Praça+do+Rossio+Lisboa/Elevador+de+Santa+Justa/Convento+do+Carmo/Café+A+Brasileira/Casa+Portuguesa+do+Pastel+de+Bacalhau/Arco+da+Rua+Augusta/Praça+do+Comércio+Lisboa/Puente+25+de+Abril" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+          </div>
+        </div>
+      `
+    }
+  ],
+  "timeline": [
+    "Cais das Naus — 20 min",
+    "Panteão Nacional — 35 min",
+    "Igreja de São Miguel — 20 min",
+    "Sé de Lisboa — 30 min",
+    "Castelo de São Jorge — 1h 15min",
+    "Praça do Rossio + Café da Nicola — 25 min",
+    "Elevador de Santa Justa — 25 min",
+    "Convento do Carmo — 35 min",
+    "Café A Brasileira — 20 min",
+    "Casa Portuguesa do Pastel de Bacalhau — 20 min",
+    "Arco da Rua Augusta — 25 min",
+    "Praça do Comércio — 25 min",
+    "Puente 25 de Abril — 20 min",
+    "✅ Fin del recorrido · Noche en Lisboa"
+  ],
+  "summary": {
+    "title": "Entradas · Día 3 · por persona",
+    "rows": [
+      {"label": "Cais das Naus, São Miguel, Rossio, Café A Brasileira, Praça do Comércio, Puente 25 de Abril, Pastel de Bacalhau", "value": "Gratis"},
+      {"label": "Panteão Nacional", "value": "4 €"},
+      {"label": "Castelo de São Jorge", "value": "10 €"},
+      {"label": "Elevador de Santa Justa", "value": "5,30 €"},
+      {"label": "Convento do Carmo", "value": "5 €"},
+      {"label": "Arco da Rua Augusta", "value": "3,50 €"}
+    ],
+    "total": {
+      "label": "Total entradas por persona",
+      "value": "27,80 €"
+    }
+  }
+}

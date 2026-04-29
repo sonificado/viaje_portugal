@@ -1,0 +1,49 @@
+{
+  "navLabel": "DÍA 6 · JUE 20 AGO",
+  "navName": "Oporto / Salamanca",
+  "ready": false,
+  "title": "Oporto — Centro histórico",
+  "date": "Jueves, 20 de agosto de 2026",
+  "subtitle": "Descubrimiento del centro histórico de Oporto, Patrimonio de la Humanidad, con sus iglesias barrocas, la famosa librería Lello, el puente Luis I y el pintoresco barrio de Ribeira.",
+  "alerts": [],
+  "sections": [
+    {
+      "name": "Ruta completa del día",
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 6 en orden: Estação de São Bento, Sé do Porto, Igreja de São Francisco, Palácio da Bolsa, Ribeira, Ponte Dom Luís I, Livraria Lello, Torre dos Clérigos, Iglesias do Carmo y Palácio de Cristal.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Estação+de+São+Bento+Oporto/Sé+do+Porto/Igreja+de+São+Francisco+Oporto/Palácio+da+Bolsa+Oporto/Ribeira+Oporto/Ponte+Dom+Luís+I+Oporto/Livraria+Lello+Oporto/Torre+dos+Clérigos+Oporto/Igrejas+do+Carmo+Oporto/Palácio+de+Cristal+Oporto" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+          </div>
+        </div>
+      `
+    }
+  ],
+  "timeline": [
+    "Estação de São Bento — 20 min",
+    "Sé do Porto — 30 min",
+    "Igreja de São Francisco — 35 min",
+    "Palácio da Bolsa — 50 min",
+    "Ribeira — 40 min",
+    "Ponte Dom Luís I — 25 min",
+    "Livraria Lello e Irmão — 25 min",
+    "Torre dos Clérigos — 35 min",
+    "Igrejas do Carmo e dos Carmelitas — 25 min",
+    "Palácio de Cristal — 40 min",
+    "✅ Fin del recorrido · Tarde libre en Oporto"
+  ],
+  "summary": {
+    "title": "Entradas · Día 6 · por persona",
+    "rows": [
+      {"label": "Estação de São Bento, Sé, Ribeira, Puente Luis I, Iglesias Siamesas, Palácio de Cristal", "value": "Gratis"},
+      {"label": "Igreja de São Francisco", "value": "6 €"},
+      {"label": "Palácio da Bolsa", "value": "12 €"},
+      {"label": "Livraria Lello", "value": "8 € (con reserva)"},
+      {"label": "Torre dos Clérigos", "value": "6 €"}
+    ],
+    "total": {
+      "label": "Total entradas por persona",
+      "value": "32 €"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "navLabel": "DÍA 8 · SÁB 22 AGO",
+  "navName": "Salamanca → Redován",
+  "ready": false,
+  "title": "Salamanca → Redován",
+  "date": "Sábado, 22 de agosto de 2026",
+  "subtitle": "Descubrimiento de Salamanca, ciudad universitaria y Patrimonio de la Humanidad, con su catedral, universidad y plaza mayor antes del regreso a Redován.",
+  "alerts": [],
+  "sections": [
+    {
+      "name": "Ruta completa del día",
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 8 en orden: Plaza Mayor, Universidad, Catedrales, Casa de las Conchas y Puente Romano antes de regresar a Redován.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Plaza+Mayor+Salamanca/Universidad+de+Salamanca/Catedrales+Vieja+y+Nueva+Salamanca/Casa+de+las+Conchas+Salamanca/Puente+Romano+Salamanca/Redován,+España" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+          </div>
+        </div>
+      `
+    }
+  ],
+  "timeline": [
+    "Plaza Mayor de Salamanca — 25 min",
+    "Universidad de Salamanca — 50 min",
+    "Catedrales Vieja y Nueva — 1h 15min",
+    "Casa de las Conchas — 20 min",
+    "Puente Romano — 20 min",
+    "🍽️ Comida en Salamanca",
+    "🏠 Llegada a Redován · Fin del viaje"
+  ],
+  "summary": {
+    "title": "Entradas · Día 8 · por persona",
+    "rows": [
+      {"label": "Plaza Mayor, Casa de las Conchas, Puente Romano", "value": "Gratis"},
+      {"label": "Universidad de Salamanca", "value": "10 €"},
+      {"label": "Catedrales Vieja y Nueva", "value": "8 €"}
+    ],
+    "total": {
+      "label": "Total entradas por persona",
+      "value": "18 €"
+    }
+  }
+}

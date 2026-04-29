@@ -1,0 +1,42 @@
+{
+  "navLabel": "DÍA 7 · VIE 21 AGO",
+  "navName": "Oporto → Salamanca",
+  "ready": false,
+  "title": "Oporto → Braga → Salamanca",
+  "date": "Viernes, 21 de agosto de 2026",
+  "subtitle": "Visita a Braga con su santuario del Bom Jesus, y ruta hacia Salamanca, ciudad universitaria y Patrimonio de la Humanidad.",
+  "alerts": [],
+  "sections": [
+    {
+      "name": "Ruta completa del día",
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 7 en orden: desde Oporto hasta Salamanca, pasando por Braga y Guimarães.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Porto,+Portugal/Braga,+Portugal/Guimarães,+Portugal/Salamanca,+España" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+          </div>
+        </div>
+      `
+    }
+  ],
+  "timeline": [
+    "Llegada a Braga · Santuário do Bom Jesus — 1h 15min",
+    "Sé de Braga — 35 min",
+    "Arco da Porta Nova — 15 min",
+    "Guimarães · Castillo y centro histórico — 1h 30min",
+    "🚗 Salida hacia Salamanca (~350 km · 3h 30min)",
+    "🏠 Llegada a Salamanca · Noche en Salamanca"
+  ],
+  "summary": {
+    "title": "Entradas · Día 7 · por persona",
+    "rows": [
+      {"label": "Santuário do Bom Jesus", "value": "3 €"},
+      {"label": "Sé de Braga", "value": "2,50 €"},
+      {"label": "Guimarães (castillo + palacio)", "value": "7 €"}
+    ],
+    "total": {
+      "label": "Total entradas por persona",
+      "value": "12,50 €"
+    }
+  }
+}

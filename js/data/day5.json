@@ -1,0 +1,46 @@
+{
+  "navLabel": "DÍA 5 · MIÉ 19 AGO",
+  "navName": "Lisboa → Oporto",
+  "ready": true,
+  "title": "Lisboa → Oporto",
+  "date": "Miércoles, 19 de agosto de 2026",
+  "subtitle": "Un día de ruta por el centro de Portugal con paradas en monasterios históricos, el santuario de Fátima, la universitaria Coímbra y la colorida Aveiro antes de llegar a Oporto.",
+  "alerts": [],
+  "sections": [
+    {
+      "name": "Ruta completa del día",
+      "content": `
+        <div class="stop">
+          <div class="stop-body" style="display: block; padding: 1rem;">
+            <div class="stop-desc" style="margin: 0;">Ruta de Google Maps con todas las paradas del día 5 en orden: desde Lisboa hasta Oporto, pasando por Alcobaça, Batalha, Fátima, Coímbra y Aveiro.</div>
+            <a class="maps-btn" href="https://www.google.com/maps/dir/Lisboa,+Portugal/Alcobaça,+Portugal/Batalha,+Portugal/Fátima,+Portugal/Coimbra,+Portugal/Aveiro,+Portugal/Porto,+Portugal" target="_blank" style="margin-top: 1rem;">📍 Ver ruta completa en Google Maps</a>
+          </div>
+        </div>
+      `
+    }
+  ],
+  "timeline": [
+    "Salida desde Lisboa",
+    "Monasterio de Alcobaça · 1h visita",
+    "Monasterio de Batalha · 1h visita",
+    "Santuario de Fátima · 1h visita",
+    "Coímbra — Universidad + centro · 2h 15min",
+    "Aveiro — moliceiro, canales, Costa Nova · 2h 30min",
+    "🎉 Llegada a Oporto"
+  ],
+  "summary": {
+    "title": "Entradas · Día 5 · por persona",
+    "rows": [
+      {"label": "Monasterio de Alcobaça", "value": "6 €"},
+      {"label": "Monasterio de Batalha", "value": "6 €"},
+      {"label": "Santuario de Fátima", "value": "Gratis"},
+      {"label": "Universidad de Coímbra (ticket completo)", "value": "12,50 €"},
+      {"label": "Paseo en moliceiro · Aveiro", "value": "13–15 €"},
+      {"label": "Museos Aveiro (opcionales)", "value": "2–4 € c/u"}
+    ],
+    "total": {
+      "label": "Total sin opcionales",
+      "value": "≈ 37–40 €"
+    }
+  }
+}
