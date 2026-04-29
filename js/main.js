@@ -20,39 +20,39 @@ const app = {
 
   async loadAllDays() {
     try {
-      // Try to load from JSON files first
+      // Load all day data from JSON files
       const promises = [];
       for (let i = 1; i <= 8; i++) {
-        promises.push(fetch(`js/data/day${i}.json`)
-          .then(res => {
-            if (!res.ok) throw new Error(`Failed to load day${i}.json`);
-            return res.json();
-          })
-          .catch(() => null));
+        promises.push(
+          fetch(`js/data/day${i}.json`)
+            .then(res => {
+              if (!res.ok) {
+                throw new Error(`HTTP ${res.status} for day${i}.json`);
+              }
+              return res.json();
+            })
+            .catch(error => {
+              console.error(`Failed to load day${i}.json:`, error.message);
+              throw error; // Re-throw to be caught by Promise.all
+            })
+        );
       }
+
       const results = await Promise.all(promises);
 
       // Check if we got all 8 days successfully
-      const validResults = results.filter(r => r !== null);
+      const validResults = results.filter(r => r !== null && r !== undefined);
       if (validResults.length === 8) {
         // All JSON files loaded successfully
         this.daysData = results;
         console.log('✅ All JSON files loaded successfully');
       } else {
-        // Some JSON files failed, use embedded data
-        console.log(`⚠️ Only ${validResults.length}/8 JSON files loaded, using embedded data`);
-        this.daysData = this.getEmbeddedData();
+        throw new Error(`Only ${validResults.length}/8 JSON files loaded successfully`);
       }
     } catch (error) {
-      console.log('Using embedded data due to:', error.message);
-      this.daysData = this.getEmbeddedData();
+      console.error('Failed to load JSON data:', error.message);
+      throw new Error(`Error loading data: ${error.message}`);
     }
-  },
-
-  getEmbeddedData() {
-    // No embedded data - all content should be in JSON files
-    // This function only returns minimal placeholder data for fallback
-    return [];
   },
 
   renderDayNav() {
@@ -224,6 +224,10 @@ const app = {
     indices.forEach(i => { if (cities[i]) cities[i].classList.add('active'); });
   }
 };
+
+// Make showDay and toggle globally available for HTML onclick handlers
+window.showDay = (dayNum) => app.showDay(dayNum);
+window.app = app; // Make the entire app object available for toggle function
 
 // Initialize app when DOM is ready
 document.addEventListener('DOMContentLoaded', () => app.init());
