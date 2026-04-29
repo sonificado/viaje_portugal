@@ -62,7 +62,7 @@ const app = {
       const isActive = dayNum === this.currentDay ? 'active' : '';
       const isReady = day.ready ? 'ready' : '';
       return `
-        <button class="day-btn ${isActive} ${isReady}" id="btn-${dayNum}" onclick="app.showDay(${dayNum})">
+        <button class="day-btn ${isActive}" id="btn-${dayNum}" onclick="app.showDay(${dayNum})">
           <span class="day-btn-num">${day.navLabel}</span>
           <span class="day-btn-name">${day.navName}</span>
         </button>
