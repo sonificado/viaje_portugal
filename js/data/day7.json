@@ -1,97 +1,426 @@
 {
-  "navLabel": "DÍA 7 · VIE 21 AGO",
-  "navName": "Oporto → Salamanca",
+  "navLabel": "DÍA 7 · SAB 22 AGO",
+  "navName": "→ Salamanca",
   "ready": false,
   "title": "Oporto → Braga → Guimarães → Salamanca",
-  "date": "Viernes, 21 de agosto de 2026",
-  "subtitle": "Un día completo visitando Braga con sus santuarios y catedral, Guimarães la cuna de Portugal con su castillo y palacio, antes de llegar a Salamanca.",
-  "alerts": [],
+  "date": "Sábado, 22 de agosto de 2026",
+  "subtitle": "Braga, capital religiosa de Portugal, y Guimarães, cuna de la nación portuguesa. Salida recomendada: 8h30–9h. Llegada a Salamanca: ~20h.",
+  "alerts": [
+    {
+      "type": "warn",
+      "icon": "⚠️",
+      "title": "Palacio de los Duques y Castillo de Guimarães",
+      "content": "Las visitas organizadas salen a las 10:00 o a las 14:00. Planifica la visita a Guimarães para llegar a una de estas dos horas y no perder el turno."
+    }
+  ],
   "sections": [
     {
-      "name": "Ruta completa del día",
-      "content": "\n        <div class=\"stop\">\n          <div class=\"stop-body\" style=\"display: block; padding: 1rem;\">\n            <div class=\"stop-desc\" style=\"margin: 0;\">Ruta de Google Maps con todas las paradas del día 7 en orden: desde Oporto hasta Braga, visitando Sameiro, Bom Jesus, Plaza de la República, Arco da Porta Nova, Catedral de Braga, Iglesia de Santa Cruz, Casa do Raio, luego Guimarães con Palacio de los Duques, Castillo, Plaza de Santiago, Plaza Largo da Oliveira, Largo da Misericórdia, Largo do Toural, y finalmente Salamanca.</div>\n            <a class=\"maps-btn\" href=\"https://www.google.com/maps/dir/Oporto,+Portugal/Santuario+de+Sameiro+Braga/Santuário+do+Bom+Jesus+do+Monte/Praça+da+República+Braga/Arco+da+Porta+Nova+Braga/Sé+de+Braga/Igreja+de+Santa+Cruz+Braga/Casa+do+Raio+Braga/Palacio+dos+Duques+de+Bragança+Guimarães/Castelo+de+Guimarães/Plaza+de+Santiago+Guimarães/Largo+da+Oliveira+Guimarães/Largo+da+Misericórdia+Guimarães/Largo+do+Toural+Guimarães/Salamanca,+España\" target=\"_blank\" style=\"margin-top: 1rem;\">📍 Ver ruta completa en Google Maps</a>\n          </div>\n        </div>\n      "
+      "name": "El viaje — Oporto → Braga",
+      "distance": "≈ 55 km · 45 min",
+      "stops": [
+        {
+          "icon": "🚗",
+          "iconClass": "icon-walk",
+          "name": "Oporto → Braga",
+          "pills": [
+            {"type": "blue", "text": "45 min aprox."}
+          ],
+          "meta": [
+            "📍 A3",
+            "55 km"
+          ],
+          "description": "Ruta rápida por la A3 hacia el norte. Braga es la tercera ciudad más grande de Portugal y su capital religiosa, conocida por sus santuarios barrocos y su animada vida universitaria.",
+          "items": [
+            "Salida recomendada de Oporto: 8h30–9h00",
+            "Aparcamiento en Braga: parking de pago en el centro, cerca de la Catedral"
+          ],
+          "mapsLink": "https://maps.google.com/?saddr=Porto,+Portugal&daddr=Braga,+Portugal",
+          "mapsText": "Ruta en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "Ruta completa — Braga",
+      "content": "\n        <div class=\"stop\">\n          <div class=\"stop-body\" style=\"display: block; padding: 1rem;\">\n            <div class=\"stop-desc\" style=\"margin: 0;\">Ruta de Google Maps con todas las paradas de Braga en orden: Santuario de Sameiro, Bom Jesus, Plaza de la República, Arco da Porta Nova, Catedral, Iglesia de Santa Cruz y Casa do Raio.</div>\n            <a class=\"maps-btn\" href=\"https://www.google.com/maps/dir/Santuário+de+Nossa+Senhora+do+Sameiro+Braga/Bom+Jesus+do+Monte+Braga/Praça+da+República+Braga/Arco+da+Porta+Nova+Braga/Sé+de+Braga/Igreja+de+Santa+Cruz+Braga/Casa+do+Raio+Braga\" target=\"_blank\" style=\"margin-top: 1rem;\">📍 Ver ruta completa de Braga en Google Maps</a>\n          </div>\n        </div>\n      "
+    },
+    {
+      "name": "1ª parada — Santuario de Nuestra Señora de Sameiro",
+      "distance": "A 5 km del centro de Braga",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Santuario de Nossa Senhora do Sameiro",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 20–30 min",
+            "🕐 10h–13h y 14h–17h"
+          ],
+          "description": "Situado en lo alto de una colina a 566 metros de altitud, este santuario mariano del siglo XIX es el segundo más visitado de Portugal tras Fátima. Las vistas panorámicas sobre el Minho y las montañas circundantes son extraordinarias.",
+          "items": [
+            "La basílica neorrománica fue construida entre 1878 y 1904",
+            "Desde la explanada hay vistas de 360° sobre el valle del Minho y la Serra do Gerês",
+            "Es un punto de peregrinación muy importante en el norte de Portugal"
+          ],
+          "ticketBox": "<strong>Precio:</strong> Gratuito · Horario: 10h–13h y 14h–17h",
+          "mapsLink": "https://maps.google.com/?q=Santuário+de+Nossa+Senhora+do+Sameiro+Braga",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "2ª parada — Santuario de Bom Jesus do Monte",
+      "distance": "A 5 km del centro de Braga",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-pay",
+          "name": "Santuario de Bom Jesus do Monte",
+          "pills": [
+            {"type": "price", "text": "4 € ascensor I/V"},
+            {"type": "price", "text": "2,50 € solo ida"}
+          ],
+          "meta": [
+            "⏱ 45–60 min",
+            "🕐 9h30–20h",
+            "🏛 UNESCO"
+          ],
+          "description": "Uno de los santuarios barrocos más espectaculares de Europa, declarado Patrimonio de la Humanidad en 2019. La gran escalinata en zigzag con capillas y fuentes alegóricas sube 116 metros hasta la iglesia neoclásica. Se puede subir a pie disfrutando del Via Crucis o en el funicular más antiguo de la Península (1882).",
+          "items": [
+            "La escalinata barroca del siglo XVIII representa el camino espiritual hacia el Buen Jesús",
+            "El funicular de agua, en funcionamiento desde 1882, es el más antiguo de la Península Ibérica",
+            "En la cima hay jardines, miradores y varias fuentes con alegorías de los cinco sentidos"
+          ],
+          "ticketBox": "<strong>Precio ascensor:</strong> 4 € ida y vuelta · 2,50 € solo ida<br><strong>Horario:</strong> 9h30–20h<br><strong>Subida a pie:</strong> Gratuita",
+          "mapsLink": "https://maps.google.com/?q=Bom+Jesus+do+Monte+Braga",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "3ª parada — Plaza de la República y Arco da Porta Nova",
+      "distance": "Centro de Braga",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Praça da República y Arco da Porta Nova",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15–20 min"
+          ],
+          "description": "La Plaza de la República es el corazón de Braga, animada y rodeada de cafés con terraza. Muy cerca, el Arco da Porta Nova (1772) es la antigua puerta de entrada a la ciudad amurallada, un elegante arco barroco que marca el inicio de la Rua do Souto, la calle comercial histórica.",
+          "items": [
+            "La fuente neobarroca de la Plaza de la República es el punto de encuentro de los bracarenses",
+            "El Arco da Porta Nova fue diseñado por el arquitecto André Soares en estilo rococó",
+            "La Rua do Souto que parte del arco es perfecta para un paseo entre tiendas y cafeterías históricas"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Praça+da+República+Braga",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "4ª parada — Catedral de Braga",
+      "distance": "2 min del Arco da Porta Nova",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-pay",
+          "name": "Sé de Braga (Catedral)",
+          "pills": [
+            {"type": "price", "text": "2 € entrada"}
+          ],
+          "meta": [
+            "⏱ 30–40 min",
+            "🕐 9h30–12h30 y 14h30–17h30"
+          ],
+          "description": "La catedral más antigua de Portugal, iniciada en el siglo XI por orden del Conde Enrique de Borgoña, padre del primer rey portugués. Es un fascinante palimpsesto arquitectónico que acumula capillas y estilos desde el románico hasta el barroco.",
+          "items": [
+            "El tesoro-museo alberga una de las colecciones de orfebrería religiosa más ricas de Portugal",
+            "Los órganos barrocos del siglo XVIII son excepcionales, con figuras de tritones y sirenas",
+            "Aquí está enterrado el Arzobispo Dom Gonçalo Pereira bajo una escultura yacente gótica de gran belleza"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 2 € · Horario: 9h30–12h30 y 14h30–17h30<br><a href=\"https://se-braga.pt/bilheteira/\" target=\"_blank\">→ se-braga.pt</a>",
+          "mapsLink": "https://maps.google.com/?q=Sé+de+Braga",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "5ª parada — Iglesia de Santa Cruz",
+      "distance": "3 min de la Catedral",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Igreja de Santa Cruz",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15 min",
+            "🕐 9h30–13h y 15h–19h"
+          ],
+          "description": "Iglesia barroca del siglo XVII con una fachada imponente y un interior ricamente decorado con azulejos azules y blancos del siglo XVIII que narran escenas de la Pasión de Cristo.",
+          "items": [
+            "Los paneles de azulejos del interior son uno de los conjuntos más destacados del barroco portugués en Braga",
+            "La fachada presenta torres gemelas características del barroco bracarense",
+            "Vale la pena detenerse aunque sea unos minutos para ver el interior"
+          ],
+          "ticketBox": "<strong>Precio:</strong> Gratuito · Horario: 9h30–13h y 15h–19h",
+          "mapsLink": "https://maps.google.com/?q=Igreja+de+Santa+Cruz+Braga",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "6ª parada — Casa do Raio",
+      "distance": "3 min de la Iglesia de Santa Cruz",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Casa do Raio",
+          "pills": [
+            {"type": "free", "text": "Exterior gratuito"}
+          ],
+          "meta": [
+            "⏱ 10 min",
+            "🏛 Exterior"
+          ],
+          "description": "También conocida como Casa do Mexia, es considerada la obra maestra del arquitecto André Soares y el ejemplo más brillante del rococó civil portugués. Su fachada azul cubierta de azulejos es una de las más fotografiadas de Braga.",
+          "items": [
+            "Construida hacia 1754, es el máximo exponente del estilo rococó en el norte de Portugal",
+            "La fachada íntegramente revestida de azulejos azules y blancos es única en su género",
+            "Actualmente es sede de una institución pública; solo se puede visitar el exterior"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Casa+do+Raio+Braga",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "El viaje — Braga → Guimarães",
+      "distance": "≈ 22 km · 25 min",
+      "stops": [
+        {
+          "icon": "🚗",
+          "iconClass": "icon-walk",
+          "name": "Braga → Guimarães",
+          "pills": [
+            {"type": "blue", "text": "25 min aprox."}
+          ],
+          "meta": [
+            "📍 A11",
+            "22 km"
+          ],
+          "description": "Trayecto corto por la A11. Guimarães es conocida como la «cuna de Portugal», pues aquí nació el primer rey portugués, Afonso Henriques, y aquí se gestó la independencia del reino en el siglo XII.",
+          "items": [
+            "Aparcamiento en Guimarães: parking de pago en el centro histórico o cerca del Castillo"
+          ],
+          "mapsLink": "https://maps.google.com/?saddr=Braga,+Portugal&daddr=Guimarães,+Portugal",
+          "mapsText": "Ruta en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "Ruta completa — Guimarães",
+      "content": "\n        <div class=\"stop\">\n          <div class=\"stop-body\" style=\"display: block; padding: 1rem;\">\n            <div class=\"stop-desc\" style=\"margin: 0;\">Ruta de Google Maps con todas las paradas de Guimarães en orden: Castillo, Palacio de los Duques, Plaza de Santiago, Largo da Oliveira, Largo da Misericórdia, Largo do Toural e Iglesia de Santos Passos.</div>\n            <a class=\"maps-btn\" href=\"https://www.google.com/maps/dir/Castelo+de+Guimarães/Paço+dos+Duques+de+Bragança+Guimarães/Praça+de+Santiago+Guimarães/Largo+da+Oliveira+Guimarães/Largo+da+Misericórdia+Guimarães/Largo+do+Toural+Guimarães/Igreja+de+Nossa+Senhora+da+Consolação+e+Santos+Passos+Guimarães\" target=\"_blank\" style=\"margin-top: 1rem;\">📍 Ver ruta completa de Guimarães en Google Maps</a>\n          </div>\n        </div>\n      "
+    },
+    {
+      "name": "7ª parada — Castillo de Guimarães",
+      "distance": "Centro histórico de Guimarães",
+      "stops": [
+        {
+          "icon": "🏰",
+          "iconClass": "icon-pay",
+          "name": "Castillo de Guimarães",
+          "pills": [
+            {"type": "price", "text": "5 € entrada"},
+            {"type": "warn", "text": "10h o 14h"}
+          ],
+          "meta": [
+            "⏱ 45–60 min",
+            "🕐 Visitas: 10h o 14h",
+            "🏛 UNESCO"
+          ],
+          "description": "El castillo más simbólico de Portugal, donde según la tradición nació Afonso Henriques, el primer rey portugués, en 1109. La fortaleza medieval con sus ocho torres almenadas domina el centro histórico de la ciudad desde lo alto de su colina.",
+          "items": [
+            "La Torre de Menagem, de planta cuadrada, es la más alta y ofrece vistas panorámicas",
+            "La capilla de São Miguel do Castelo, románica del siglo XII, es donde fue bautizado Afonso Henriques según la tradición",
+            "Las visitas organizadas salen a las 10:00 o a las 14:00; conveniente combinarlo con el Palacio"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 5 € · Visitas: 10h o 14h<br><a href=\"https://www.getyourguide.com/guimaraes-l4960/guimaraes-castle-of-guimaraes-entry-ticket-t914939/?locale=es-ES&currency=EUR\" target=\"_blank\">→ Entradas en GetYourGuide</a>",
+          "mapsLink": "https://maps.google.com/?q=Castelo+de+Guimarães",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "8ª parada — Palacio de los Duques de Braganza",
+      "distance": "2 min del Castillo",
+      "stops": [
+        {
+          "icon": "🏰",
+          "iconClass": "icon-pay",
+          "name": "Paço dos Duques de Bragança",
+          "pills": [
+            {"type": "price", "text": "5 € entrada"},
+            {"type": "warn", "text": "10h o 14h"}
+          ],
+          "meta": [
+            "⏱ 45–60 min",
+            "🕐 Visitas: 10h o 14h",
+            "🏛 UNESCO"
+          ],
+          "description": "Palacio ducal del siglo XV construido por Don Alfonso, el primer Duque de Braganza. Tras siglos de abandono, fue restaurado en el siglo XX y hoy alberga un museo con tapices flamencos, porcelanas chinas, muebles y armaduras medievales.",
+          "items": [
+            "Los 17 tapices flamencos del siglo XVII sobre batallas portuguesas en el norte de África son la pieza estrella",
+            "El palacio fue el modelo arquitectónico para muchos palacios portugueses de la época",
+            "El patio interior y la chimenea de la gran sala son especialmente llamativos"
+          ],
+          "ticketBox": "<strong>Precio:</strong> 5 € · Visitas: 10h o 14h<br><a href=\"https://www.getyourguide.com/guimaraes-l4960/guimaraes-palace-of-the-dukes-of-braganca-entry-ticket-t917386/?locale=es-ES&currency=EUR\" target=\"_blank\">→ Entradas en GetYourGuide</a>",
+          "mapsLink": "https://maps.google.com/?q=Paço+dos+Duques+de+Bragança+Guimarães",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "9ª parada — Plaza de Santiago y Largo da Oliveira",
+      "distance": "5 min del Palacio",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Praça de Santiago y Largo da Oliveira",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 20–30 min"
+          ],
+          "description": "Dos de las plazas más hermosas del centro histórico medieval de Guimarães, declarado Patrimonio de la Humanidad. La Praça de Santiago, íntima y empedrada, da paso al Largo da Oliveira, donde se alzan la Colegiata de Nuestra Señora de Oliveira y el célebre Padrão do Salado.",
+          "items": [
+            "La Iglesia de Nuestra Señora de Oliveira (horario: 9h30–19h30) es la colegiata fundacional de Guimarães",
+            "El Padrão do Salado es un pequeño edículo gótico erigido en 1340 para conmemorar la victoria portuguesa en la batalla del Salado",
+            "Ambas plazas tienen terrazas ideales para tomar algo y contemplar la arquitectura medieval"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Praça+de+Santiago+Guimarães",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "10ª parada — Largo da Misericórdia y Largo do Toural",
+      "distance": "3 min del Largo da Oliveira",
+      "stops": [
+        {
+          "icon": "🏛️",
+          "iconClass": "icon-free",
+          "name": "Largo da Misericórdia y Largo do Toural",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 20–25 min"
+          ],
+          "description": "El Largo da Misericórdia es una pequeña y encantadora plaza con soportales barrocos. El Largo do Toural es la plaza más amplia del centro, punto de encuentro de los vimaranenses, con terrazas y la fachada de la Iglesia de San Pedro.",
+          "items": [
+            "La Iglesia de San Pedro (horario: 8h–12h y 14h–17h30) tiene una fachada barroca imponente",
+            "El Largo do Toural es el lugar perfecto para un descanso antes de la última parada del día",
+            "La arquitectura de los soportales del Largo da Misericórdia es característica del urbanismo medieval portugués"
+          ],
+          "mapsLink": "https://maps.google.com/?q=Largo+do+Toural+Guimarães",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "11ª parada — Iglesia de Nossa Senhora da Consolação e Santos Passos",
+      "distance": "3 min del Largo do Toural",
+      "stops": [
+        {
+          "icon": "⛪",
+          "iconClass": "icon-free",
+          "name": "Igreja de Nossa Senhora da Consolação e Santos Passos",
+          "pills": [
+            {"type": "free", "text": "Entrada gratuita"}
+          ],
+          "meta": [
+            "⏱ 15 min",
+            "🕐 7h30–12h y 15h–17h"
+          ],
+          "description": "Iglesia barroca del siglo XVIII de fachada rosa característica, situada en una pequeña plaza empedrada. El interior está decorado con azulejos que representan las escenas del Vía Crucis, y el exterior ofrece una imagen muy pintoresca con las escalinatas y las palmeras.",
+          "items": [
+            "La fachada color rosa salmón es una de las más reconocibles de Guimarães",
+            "Los azulejos del interior narran las escenas de la Pasión de Cristo con detalle",
+            "La plaza frente a la iglesia es uno de los rincones más fotogénicos de la ciudad"
+          ],
+          "ticketBox": "<strong>Precio:</strong> Gratuito · Horario: 7h30–12h y 15h–17h",
+          "mapsLink": "https://maps.google.com/?q=Igreja+de+Nossa+Senhora+da+Consolação+e+Santos+Passos+Guimarães",
+          "mapsText": "Ver en Google Maps"
+        }
+      ]
+    },
+    {
+      "name": "El viaje — Guimarães → Salamanca",
+      "distance": "≈ 330 km · 3h 15min",
+      "stops": [
+        {
+          "icon": "🚗",
+          "iconClass": "icon-walk",
+          "name": "Guimarães → Salamanca",
+          "pills": [
+            {"type": "blue", "text": "3h 15min aprox."}
+          ],
+          "meta": [
+            "📍 A7 / A11 / A3 / A-62",
+            "330 km"
+          ],
+          "description": "Ruta de regreso a España por el norte de Portugal. Se toma la A7 hacia el sur hasta empalmar con la A3, se cruza la frontera por Valença/Tui y se continúa por la autovía española hasta Salamanca.",
+          "items": [
+            "Cruce de frontera por Valença (Portugal) / Tui (España), sin controles",
+            "Salida recomendada de Guimarães: hacia las 16h30–17h para llegar a Salamanca a las 20h"
+          ],
+          "mapsLink": "https://maps.google.com/?saddr=Guimarães,+Portugal&daddr=Salamanca,+España",
+          "mapsText": "Ruta en Google Maps"
+        }
+      ]
     }
   ],
   "timeline": [
-    "Salir de Oporto · 8h00–8h30",
-    "Viaje a Braga · 45 min",
-    "Santuario de Nuestra Señora de Sameiro — 45 min",
-    "Santuário do Bom Jesus — 1h 15min",
-    "Praça da República — 20 min",
-    "Arco da Porta Nova — 15 min",
-    "Sé de Braga — 1h",
-    "Igreja de Santa Cruz — 30 min",
-    "Casa do Raio — 15 min",
+    "Salida de Oporto · 8h30–9h00",
+    "Santuario de Sameiro — 25 min",
+    "Santuario de Bom Jesus — 50 min",
+    "Plaza de la República y Arco da Porta Nova — 20 min",
+    "Catedral de Braga — 35 min",
+    "Iglesia de Santa Cruz — 15 min",
+    "Casa do Raio — 10 min",
     "Viaje a Guimarães · 25 min",
-    "Palacio de los Duques de Braganza — 1h 15min",
-    "Castelo de Guimarães — 1h",
-    "Praça de Santiago — 20 min",
-    "Largo da Oliveira — 30 min",
-    "Largo da Misericórdia — 20 min",
-    "Largo do Toural — 25 min",
-    "Igreja de Nossa Senhora da Consolaçao e Santos Passos — 20 min",
-    "Viaje a Salamanca · 3h 30min",
-    "🎉 Llegada a Salamanca"
+    "Castillo de Guimarães — 50 min (visita 10h o 14h)",
+    "Palacio de los Duques de Braganza — 50 min (visita 10h o 14h)",
+    "Plaza de Santiago y Largo da Oliveira — 25 min",
+    "Largo da Misericórdia y Largo do Toural — 20 min",
+    "Iglesia de Santos Passos — 15 min",
+    "Viaje a Salamanca · 3h 15min",
+    "✅ Fin del recorrido · Noche en Salamanca"
   ],
   "summary": {
     "title": "Entradas · Día 7 · por persona",
     "rows": [
-      {
-        "label": "Santuario de Nuestra Señora de Sameiro",
-        "value": "Gratis"
-      },
-      {
-        "label": "Praça da República",
-        "value": "Gratis"
-      },
-      {
-        "label": "Arco da Porta Nova",
-        "value": "Gratis"
-      },
-      {
-        "label": "Igreja de Santa Cruz",
-        "value": "Gratis"
-      },
-      {
-        "label": "Casa do Raio",
-        "value": "Gratis"
-      },
-      {
-        "label": "Praça de Santiago",
-        "value": "Gratis"
-      },
-      {
-        "label": "Largo da Oliveira",
-        "value": "Gratis"
-      },
-      {
-        "label": "Largo da Misericórdia",
-        "value": "Gratis"
-      },
-      {
-        "label": "Largo do Toural",
-        "value": "Gratis"
-      },
-      {
-        "label": "Igreja de Nossa Senhora da Consolaçao e Santos Passos",
-        "value": "Gratis"
-      },
-      {
-        "label": "Santuário do Bom Jesus (ascensor)",
-        "value": "4 €"
-      },
-      {
-        "label": "Sé de Braga",
-        "value": "2 €"
-      },
-      {
-        "label": "Palacio de los Duques de Braganza",
-        "value": "5 €"
-      },
-      {
-        "label": "Castelo de Guimarães",
-        "value": "5 €"
-      }
+      {"label": "Santuario de Sameiro", "value": "Gratis"},
+      {"label": "Santuario de Bom Jesus (ascensor I/V)", "value": "4 €"},
+      {"label": "Plaza República, Arco Porta Nova, Casa do Raio", "value": "Gratis"},
+      {"label": "Catedral de Braga", "value": "2 €"},
+      {"label": "Iglesia de Santa Cruz", "value": "Gratis"},
+      {"label": "Castillo de Guimarães", "value": "5 €"},
+      {"label": "Palacio de los Duques de Braganza", "value": "5 €"},
+      {"label": "Plaza Santiago, Largo Oliveira, Toural, Santos Passos", "value": "Gratis"}
     ],
     "total": {
       "label": "Total entradas por persona",
